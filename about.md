@@ -11,8 +11,3 @@ sidebar_link: true
 <p>  
   My theme is a Jekyll theme called <a href="https://github.com/fongandrew/hydeout">Hydeout</a> by Andrew Fong.
 </p>
-  
-  
-
-<!--To make pages show up in the sidebar, add `sidebar_link: true` to the front
-matter.--!>
