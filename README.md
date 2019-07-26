@@ -1,3 +1,8 @@
+This is the source code for my personal website, https://wolframalexa.github.io. I forked it from fongandrew/hydeout. The previous README is below. Used under the MIT license. All alterations are my own.
+
+__________________________________________
+
+
 # Hydeout
 
 Hydeout updates the original [Hyde](https://github.com/poole/hyde)
