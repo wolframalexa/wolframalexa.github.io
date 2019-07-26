@@ -4,7 +4,7 @@ highlighter:      rouge
 
 # Setup
 title:            Alexa Jakob
-tagline:          let's see if this works
+tagline:          | wolframalexa
 description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
 url:              https://wolframalexa.github.io
 remote_theme:     fongandrew/hydeout
@@ -20,7 +20,7 @@ author:
   url:            https://github.com/wolframalexa
 
 paginate:         5
-paginate_path:    '/blog/page:num'
+paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
 
 plugins:
@@ -30,7 +30,7 @@ plugins:
 
 # Sidebar link settings
 sidebar_home_link:  true
-sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+#sidebar_blog_link:  '/blog'   # By default, your home page is your blog
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
