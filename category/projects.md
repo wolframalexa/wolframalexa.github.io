@@ -3,7 +3,8 @@ layout: category
 title: Projects
 ---
 
-#The Dinosaur Game: Digital Logic Design Final Project (May 2019)
+<h1>The Dinosaur Game: Digital Logic Design Final Project (May 
+2019)</h1>
 
 #Formula SAE Team (September 2018-May 2019)
 
