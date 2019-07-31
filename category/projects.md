@@ -3,25 +3,13 @@ layout: category
 title: Projects
 ---
 
-Sample category page. You need to create a page for each category.
-The category is inferred from the title of the page, but you can also
-specify it with the `category` attribute in the front matter.
+#The Dinosaur Game: Digital Logic Design Final Project (May 2019)
 
-```md
----
-layout: category
-title: My Category
----
-```
+#Formula SAE Team (September 2018-May 2019)
 
-Or ...
+#Refugee in Flight Shelter Kit (September-December 2018)
 
-```md
----
-layout: category
-title: Fancy Title
-category: My Category
----
-```
+#What Does New York City Mean to You? Cooper Union Summer STEM Program (June-August 2017)
 
-Posts get listed below here.
+#Plant-Powered Solar Cell (September 2016-March 2017)
+
