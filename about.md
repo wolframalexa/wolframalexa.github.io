@@ -11,3 +11,8 @@ sidebar_link: true
 <p>  
   My theme is a Jekyll theme called <a href="https://github.com/fongandrew/hydeout">Hydeout</a> by Andrew Fong.
 </p>
+
+<h3>Contact Me</h3>
+<p><a href="mailto:alexajakob@tutanota.com">Email</a></p>
+<p><a href="https://github.com/wolframalexa">Github</a></p>
+<p><a href="https://www.linkedin.com/in/alexa-jakob-281909169/>LinkedIn</a><p>
