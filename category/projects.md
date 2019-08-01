@@ -31,7 +31,7 @@ My additional responsibilities included performing carbon fiber layups end-to-en
 [ADD NOSECONE PICTURES]
 
 <h2>Refugee in Flight Shelter Kit (September-December 2018)</h2>
-Refugees are fleeing Sub-Saharan Africa because of political violence, climate change, and economic hardship. When people make the trek across the Sahara, they must stop to recuperate. Current UN refugee camps are underfunded, and the shelters are difficult to erect, stationary, and unsustainable since they are made of plastics. [RiFSK](https://rifsk.org), the Refugee in Flight Shelter Kit, aims to create a biodegradable, portable, waterproof, easily-buildable shelter made of locally-sourced materials to accomodate a woman and two children.
+Refugees are fleeing Sub-Saharan Africa because of political violence, climate change, and economic hardship. When people make the trek across the Sahara, they must stop to recuperate. Current UN refugee camps are underfunded, and the shelters are difficult to erect, stationary, and unsustainable since they are made of plastics. [RiFSK](http://rifsk.org), the Refugee in Flight Shelter Kit, aims to create a biodegradable, portable, waterproof, easily-buildable shelter made of locally-sourced materials to accomodate a woman and two children.
 
 [add rifsk photo]
 
