@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+sidebar_link: true
 ---
 
 <h2>The Dinosaur Game: Digital Logic Design Final Project (May 
