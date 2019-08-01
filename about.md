@@ -15,4 +15,4 @@ sidebar_link: true
 <h3>Contact Me</h3>
 <p><a href="mailto:alexajakob@tutanota.com">Email</a></p>
 <p><a href="https://github.com/wolframalexa">Github</a></p>
-<p><a href="https://www.linkedin.com/in/alexa-jakob-281909169/>LinkedIn</a><p>
+<p><a href="https://www.linkedin.com/in/alexa-jakob-281909169/>LinkedIn</a></p>
