@@ -31,6 +31,11 @@ My additional responsibilities included performing carbon fiber layups end-to-en
 [ADD NOSECONE PICTURES]
 
 <h2>Refugee in Flight Shelter Kit (September-December 2018)</h2>
+Refugees are fleeing Sub-Saharan Africa because of political violence, climate change, and economic hardship. When people make the trek across the Sahara, they must stop to recuperate. Current UN refugee camps are underfunded, and the shelters are difficult to erect, stationary, and unsustainable since they are made of plastics. [RiFSK](https://rifsk.org), the Refugee in Flight Shelter Kit, aims to create a biodegradable, portable, waterproof, easily-buildable shelter made of locally-sourced materials to accomodate a woman and two children.
+
+[add rifsk photo]
+
+I worked on the [distribution and manufacturing group](https://docs.google.com/document/d/1nLI4qcUVZ-68dS0TsVXtv8S5MznLuZRTQDaR6OBwhnM/edit?usp=sharing). Refugees are always on the move and political situations are often unstable, so we designed a mobile manufacturing process that can adapt to the conditions in the region and deliver the kits to where they're needed most. I was also selected to deliver the [final presentation](https://drive.google.com/file/d/1WWTOWlHdal7Qbpx91u0PdlKRPthh0lSZ/view?usp=sharing).
 
 <h2>What Does New York City Mean to You? Cooper Union Summer STEM 
 Program (June-August 2017) </h2>
