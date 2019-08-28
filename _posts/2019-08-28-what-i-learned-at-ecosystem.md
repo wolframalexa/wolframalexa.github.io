@@ -11,7 +11,7 @@ tags:
 
 This summer, I had the opportunity to intern at [Ecosystem](https://ecosystem-energy.com/) as a project engineer intern working on the construction team. Working at Ecosystem, it’s hard to explain what it is you do – it’s kind of HVAC, but more innovative and interesting; kind of sustainability, but we’re not planting trees; kind of construction, but we’re not bound by the design-bid-build model so we’re more agile. In short, the question “so what are you doing this summer?” was a little complicated to answer for me.
 
-<img src="https://github.com/wolframalexa/wolframalexa.github.io/blob/master/_posts/steam%20room%20stuytown.jpg" alt="Photo taken in a StuyTown Steam Hub for National Intern Day. PC: Lucas Taub">
+<img src="https://drive.google.com/file/d/1KRh-GdKs6-kTgAiSApp147RGCgAwLjJS/view?usp=sharing" alt="Photo taken in a StuyTown Steam Hub for National Intern Day. PC: Lucas Taub">
 
 The most efficient way I’ve settled on to answer this question is: “I worked in construction engineering for an energy efficiency company doing retrofits in the city.” As a Project Engineer Intern at Ecosystem, I supported projects in Manhattan and Brooklyn. This post isn’t sponsored at all, but I wanted to collect my thoughts about the experience and share what I learned.
 
