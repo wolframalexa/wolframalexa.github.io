@@ -1,4 +1,15 @@
-This summer, I had the opportunity to intern at Ecosystem as a project engineer intern working on the construction team. Working at Ecosystem, it’s hard to explain what it is you do – it’s kind of HVAC, but more innovative and interesting; kind of sustainability, but we’re not planting trees; kind of construction, but we’re not bound by the design-bid-build model so we’re more agile. In short, the question “so what are you doing this summer?” was a little complicated to answer for me.
+---
+layout: post
+title: "What I Learned At Ecosystem"
+categories:
+  - Blog Posts
+tags:
+  - work
+  - energy
+  - ecosystem  
+---
+
+This summer, I had the opportunity to intern at [Ecosystem](https://ecosystem-energy.com/) as a project engineer intern working on the construction team. Working at Ecosystem, it’s hard to explain what it is you do – it’s kind of HVAC, but more innovative and interesting; kind of sustainability, but we’re not planting trees; kind of construction, but we’re not bound by the design-bid-build model so we’re more agile. In short, the question “so what are you doing this summer?” was a little complicated to answer for me.
 The most efficient way I’ve settled on to answer this question is: “I worked in construction engineering for an energy efficiency company doing retrofits in the city.” As a Project Engineer Intern at Ecosystem, I supported projects in Manhattan and Brooklyn. This post isn’t sponsored at all, but I wanted to collect my thoughts about the experience and share what I learned.
 I learned a lot about HVAC and the energy efficiency industry. As someone who previously didn’t know what a chiller was or how it worked, I gained a lot of knowledge in fluid dynamics, heat transfer, and thermodynamics as a first year that is mostly taught in the third year of engineering programs.
 HVAC is all about moving heat from one place to another in order to regulate the temperature of a space. As an industry, it has traditionally been siloed, with boiler, chiller, steam (in NYC), and domestic hot/cold water systems designed separately. Ecosystem goes into old buildings to perform retrofits. When drafting a proposal, the engineers audit the entire system to find where the losses are, and how waste heat can be reused. For example, the chiller produces a lot of heat that is rejected to the cooling tower – could you use that instead to preheat domestic hot water? 
