@@ -16,3 +16,5 @@ sidebar_link: true
 <p><a href="mailto:alexajakob@tutanota.com">Email</a></p>
 <p><a href="https://github.com/wolframalexa">Github</a></p>
 <p><a href="https://www.linkedin.com/in/alexa-jakob-281909169/">LinkedIn</a></p>
+
+<p>If you want to see my resume, just click <a href="https://drive.google.com/file/d/1PyNBHXtaMYnULvMo1r8L8y-c837hahtm/view?usp=sharing">here</a>.</p>
