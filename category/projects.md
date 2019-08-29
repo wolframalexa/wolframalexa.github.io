@@ -11,7 +11,7 @@ My partner Hadassah Yanofsky (EE '22) and I built a version of Google Chrome's D
 
 You can read the technical details of how we accomplished this in our documentation [here](https://docs.google.com/document/d/1f7AopN-quus8UlS3rx4m_0wKX9mxa_iP11Y8uOVm4rU/edit?usp=sharing) (includes circuit diagrams and videos of the project in action). 
 
-<img src="/assets/images/dld-final.jpg" alt="Final Board Photo">
+<img src="/assets/images/dld-final.JPG" alt="Final Board Photo">
 <p align="center">Final Board Photo</p>
 
 Other projects for Digital Logic Design include the Traffic Light and Braille individual projects, my documentation for which can be found [here](https://docs.google.com/document/d/1mU8ysq5N06wHEdOlbwmxjcJd6YPX3huf1eCUNwub21E/edit?usp=sharing) for Traffic Light and [here](https://docs.google.com/document/d/10a4otYoUxSXOOWUxVkir43FO-LzfDG4o3zMiSYjK4KY/edit?usp=sharing) for Braille.
