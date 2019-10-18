@@ -17,4 +17,6 @@ The team I'll be working on does consumer electronics and embedded systems, and 
 
 Nvidia is a partner of [Rewriting the Code](https://rewritingthecode.org/), an organization with which I am a fellow. I participated in the NYC hub this past summer, and it allowed me to connect with lots of awesome women in tech. I can't wait to do it again in the Silicon Valley hub this summer.
 
-My Nvidia interviewers asked me some of the most challenging technical questions I had this recruiting season, and I know I'm going to learn a lot! I'm really excited to explore my interest in hardware in a cross-functional, multidisciplinary team (with lots of Cooper grads!), and spend the summer in the Bay Area (if you're around, come say hi!).
+My Nvidia interviewers asked me some of the most challenging technical questions I had this recruiting season, and I know I'm going to learn a lot! I'm really excited to explore my interest in hardware in a cross-functional, multidisciplinary team (with lots of Cooper grads!), and spend the summer in the Bay Area.
+
+I can't wait to see what the following summer brings! If you're in the Bay Area, come say hi :)
