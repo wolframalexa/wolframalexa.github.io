@@ -11,7 +11,7 @@ tags:
 
 Some exciting personal news: I've accepted an offer at [Nvidia](https://www.nvidia.com/en-us/) as a Hardware Intern for summer 2020! 
 
-<img src="assets/images/nvidia.png" alt="Nvidia Logo">
+<img src="/assets/images/nvidia.png" alt="Nvidia Logo">
 
 The team I'll be working on does consumer electronics and embedded systems, and I'll be verifying and testing their prototypes as they come back from the fabrication facility (breaking things to fix them, as it were).
 
