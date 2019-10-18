@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Joining Nvidia (Summer 2020)"
+title: "Joining Nvidia! (Summer 2020)"
 categories:
   - Blog Posts
 tags:
@@ -9,9 +9,9 @@ tags:
   - nvidia
 ---
 
-Some exciting personal news: I've accepted an offer at [Nvidia](https://www.nvidia.com/en-us/) as a Hardware Intern for summer 2020! 
+Some exciting personal news: I've accepted an offer at [Nvidia](https://www.nvidia.com/en-us/) as a Hardware Intern for summer 2020 in their headquarters in Santa Clara, CA! 
 
-<p style="text-align:center;"><img src="/assets/images/nvidia.png" width="200" alt="Nvidia Logo"></p>
+<center><img src="/assets/images/nvidia.png" width="200" alt="Nvidia Logo"></center>
 
 The team I'll be working on does consumer electronics and embedded systems, and I'll be verifying and testing their prototypes as they come back from the fabrication facility (breaking things to fix them, as it were).
 
