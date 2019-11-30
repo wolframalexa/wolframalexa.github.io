@@ -13,6 +13,11 @@ tags:
 
 I recently attended my first [Society of Women Engineers](https://swe.org/) National Conference in Anaheim, CA. I loved being in a space explicitly constructed for women engineers: I felt myself assuming everyone who I met was an engineer and found myself surrounded by absolute badasses.
 
+<center><img src='/assets/images/cooper-swe-section.jpg' alt='my SWE section'></center>
+
+<p align="center">Some of the badasses in my SWE section!</p>
+
+
 The conference was really eye-opening, both for my own personal development and for thinking about how we encourage and support women in STEM fields. So this post is about both what I learned about myself, and my thoughts on the larger women in engineering ecosystem.
 
 ## **Takeaway 1: Networking is about crafting and maintaining organic relationships.**
