@@ -27,11 +27,11 @@ I’ve learned that this networking will allow me to create friendships that res
 
 I believe that a measure of true inclusion of women (or any group) in engineering is how much this group is allowed to fail. Stereotype threat is a real thing, as evidenced by my favourite XKCD comic. 
 
-<center><img src="/assets/images/xkcd-girls-math.png" width="200" alt="My favourite XKCD comic"></center>
+<center><img src="/assets/images/xkcd-girls-math.png" width="500" alt="My favourite XKCD comic"></center>
 
 As women, many of us hold ourselves to impossibly high standards, because it feels like if we fail, we are letting down all women engineers. This is really difficult, since resiliency and being comfortable with failure is integral to engineering. As a perfectionist, there have definitely been times where I’ve avoided beginning a project or program just because I was worried it would break or wouldn’t compile the first time. Michelle Rial has a great chart about this.
 
-<center><img src="/assets/images/failure-success-michelle-rial.JPG" width="300" alt="You won't fail if you don't try, but you also won't succeed"></center>
+<center><img src="/assets/images/failure-success-michelle-rial.JPG" width="500" alt="You won't fail if you don't try, but you also won't succeed"></center>
 
 The SWE conference helped remind me that this is in fact not true, and that there is space for failure so long as you get right back up and learn from it. I really love that the conference was its focus on failure, lifelong learning, and professional growth.
 
