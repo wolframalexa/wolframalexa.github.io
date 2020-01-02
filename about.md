@@ -15,16 +15,16 @@ Hey there! My name is Alexa, I'm a sophomore at Cooper Union studying electrical
 
 <h3>Organizations and Affiliations</h3>
 Current:
-1. Autonomy Lab, Cooper Union
-1. Society of Women Engineers (SWE)
-1. Out in STEM (oSTEM)
-1. Rewriting the Code (RTC)
-1. labac.dev
+* Autonomy Lab, Cooper Union
+* Society of Women Engineers (SWE)
+* Out in STEM (oSTEM)
+* Rewriting the Code (RTC)
+* labac.dev
 
 Past:
-1. Cooper Union Formula SAE Team
-1. New York Academy of Sciences
-1. Built By Girls
+* Cooper Union Formula SAE Team
+* New York Academy of Sciences
+* Built By Girls
 
 <h3>Contact Me</h3>
 <p><a href="mailto:alexajakob@tutanota.com">Email</a></p>
