@@ -14,6 +14,7 @@ Hey there! My name is Alexa, I'm a sophomore at Cooper Union studying electrical
 </p>
 
 <h3>Organizations and Affiliations</h3>
+
 Current:
 * Autonomy Lab, Cooper Union
 * Society of Women Engineers (SWE)
