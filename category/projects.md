@@ -13,9 +13,6 @@ As part of ECE291 at The Cooper Union, my group built a [pitch theremin](https:/
 
 My partner Hadassah Yanofsky and I built [a version of Google Chrome's Dinosaur Game](https://docs.google.com/document/d/1f7AopN-quus8UlS3rx4m_0wKX9mxa_iP11Y8uOVm4rU/edit?usp=sharing) using only 40XX series CMOS chips. I was responsible for the random obstacle generation and the display.
 
-<img src="/assets/images/dld-final.JPG" alt="Final Board Photo" align="center">
-<p align="center">Final Board Photo</p>
-
 Other projects for Digital Logic Design include the [Traffic Light](https://docs.google.com/document/d/1mU8ysq5N06wHEdOlbwmxjcJd6YPX3huf1eCUNwub21E/edit?usp=sharing) and [Braille](https://docs.google.com/document/d/10a4otYoUxSXOOWUxVkir43FO-LzfDG4o3zMiSYjK4KY/edit?usp=sharing) individual projects.
 
 DLD is notoriously a difficult class at Cooper Union, but it's the reason I became an electrical engineer: I love the challenges of debugging, adapting to setbacks, and thinking of creative ways to put different components together. I am eternally grateful to the upperclass students who took a look at my circuits real quick when they had a second, and hope to return the favour to future students.
