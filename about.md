@@ -6,7 +6,8 @@ sidebar_link: true
 
 
 <p>
-  Hey there! My name is Alexa, I'm a sophomore at Cooper Union studying electrical engineering, and I'm interested in hardware and cybersecurity. I play violin and enjoy a good game of Catan. A proponent of the Oxford comma and the metric system, I speak English, French, and Spanish and hail from the faraway land of Canada. Tardigrades are the best animals, <a href="mailto:alexajakob@tutanota.com"> prove me wrong </a> (or just email me memes, that's fine too).
+Hey there! My name is Alexa, I'm a sophomore at Cooper Union studying electrical engineering. My interests include hardware engineering, building and debugging circuits, automating boring stuff with MATLAB and Python, classical music, podcasts, swimming, board games, math, and combinations and permutations thereof.
+  
 </p>
 <p>  
   My theme is a Jekyll theme called <a href="https://github.com/fongandrew/hydeout">Hydeout</a> by Andrew Fong.
@@ -17,4 +18,4 @@ sidebar_link: true
 <p><a href="https://github.com/wolframalexa">Github</a></p>
 <p><a href="https://www.linkedin.com/in/alexa-jakob-281909169/">LinkedIn</a></p>
 
-<p>If you want to see my resume, just click <a href="https://drive.google.com/file/d/1PyNBHXtaMYnULvMo1r8L8y-c837hahtm/view?usp=sharing">here</a>.</p>
+<p>You can find my resume <a href="https://drive.google.com/file/d/1PyNBHXtaMYnULvMo1r8L8y-c837hahtm/view?usp=sharing">here</a>.</p>
