@@ -4,19 +4,21 @@ title: Projects
 sidebar_link: true
 ---
 
+<h2> Pitch Theremin: Sophomore Projects (December 2019) </h2>
+
+As part of ECE291 at The Cooper Union, my group built a [pitch theremin](https://docs.google.com/document/d/1SeXoJaNbIeLjNpwCGp_wtSrwWCHZ9YC8OHh2F3PvuhA/edit?usp=sharing), an ethereal instrument that is played without being touched, using oscillators, envelope detection, a low-pass filter, and a speaker. I implemented the changes from the provided schematic (notably, implementing voltage followers to prevent loading effects from the capacitive coupling). 
+
 <h2>The Dinosaur Game: Digital Logic Design Final Project (May 
 2019)</h2>
 
-My partner Hadassah Yanofsky (EE '22) and I built a version of Google Chrome's Dinosaur Game using only 40XX series CMOS chips. I was responsible for the random obstacle generation and the display.
+My partner Hadassah Yanofsky and I built [a version of Google Chrome's Dinosaur Game](https://docs.google.com/document/d/1f7AopN-quus8UlS3rx4m_0wKX9mxa_iP11Y8uOVm4rU/edit?usp=sharing) using only 40XX series CMOS chips. I was responsible for the random obstacle generation and the display.
 
-You can read the technical details of how we accomplished this in our documentation [here](https://docs.google.com/document/d/1f7AopN-quus8UlS3rx4m_0wKX9mxa_iP11Y8uOVm4rU/edit?usp=sharing) (includes circuit diagrams and videos of the project in action). 
-
-<img src="/assets/images/dld-final.JPG" alt="Final Board Photo" height=300px width=200px align="center">
+<img src="/assets/images/dld-final.JPG" alt="Final Board Photo" align="center">
 <p align="center">Final Board Photo</p>
 
-Other projects for Digital Logic Design include the Traffic Light and Braille individual projects, my documentation for which can be found [here](https://docs.google.com/document/d/1mU8ysq5N06wHEdOlbwmxjcJd6YPX3huf1eCUNwub21E/edit?usp=sharing) for Traffic Light and [here](https://docs.google.com/document/d/10a4otYoUxSXOOWUxVkir43FO-LzfDG4o3zMiSYjK4KY/edit?usp=sharing) for Braille.
+Other projects for Digital Logic Design include the [Traffic Light](https://docs.google.com/document/d/1mU8ysq5N06wHEdOlbwmxjcJd6YPX3huf1eCUNwub21E/edit?usp=sharing) and [Braille](https://docs.google.com/document/d/10a4otYoUxSXOOWUxVkir43FO-LzfDG4o3zMiSYjK4KY/edit?usp=sharing) individual projects.
 
-DLD is notoriously a difficult class at Cooper Union, but it's the reason I became an electrical engineer: I love the challenges of debugging, adapting to setbacks, and thinking of creative ways to put different components together. I am eternally grateful to the upperclass students who took a look at my circuits real quick when they had a second. My hope is that future EEs will also take advantage of this opportunity to learn, which is why I wrote a very informal debugging guide for the class projects based on what I've learned, and I hope that it is helpful.
+DLD is notoriously a difficult class at Cooper Union, but it's the reason I became an electrical engineer: I love the challenges of debugging, adapting to setbacks, and thinking of creative ways to put different components together. I am eternally grateful to the upperclass students who took a look at my circuits real quick when they had a second, and hope to return the favour to future students.
 
 <h2>Formula SAE Team (September 2018-May 2019)</h2>
 
@@ -43,5 +45,11 @@ I worked on the [distribution and manufacturing group](https://docs.google.com/d
 <h2>What Does New York City Mean to You? Cooper Union Summer STEM 
 Program (June-August 2017) </h2>
 
+I built a Rube Goldberg machine along with 19 other high school students. I learned how to machine and new approaches to design. This is the program that made me choose a career in engineering, and to pursue my education at Cooper.
+
 <h2>Plant-Powered Solar Cell (September 2016-March 2017)</h2>
+
+As part of the _Travail Personnel Encadré_ (TPE, translated: Directed Personal Projects) required of 11th graders in the French education system, two partners and I built a photosynthetic solar cell based off of the [Graetzel Cell](https://en.wikipedia.org/wiki/Dye-sensitized_solar_cell). In order to communicate our results, we wrote a lab report, produced a podcast episode, and wrote and edited a magazing about contemporary issues in solar power, all in French and all of which we defended to science teachers from other French schools in the Northeast. 
+
+This project is meaningful to me because it's the first research project I embarked on. We failed a **lot**, and learned a **lot**. I'm almost not even embarrassed that I thought voltage and current were the same thing. Almost.
 
