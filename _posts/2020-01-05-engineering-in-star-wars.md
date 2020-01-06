@@ -41,8 +41,7 @@ Stormtrooper armor is an example of the consequences of design. As with any obje
 ## III.	Are those X-Wings even safe?
 
 <img src="/assets/images/tiefighter.jpg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"><img src="/assets/images/xwing.jpg" style="float: left; width: 50%; margin-right: 1%; margin-bottom: 0.5em;">
-<br>
-<p><center>On the left: TIE fighters, the Imperial spacecraft. To the right: X-Wings, used by the Rebels.</center></p>
+<p>On the left: TIE fighters, the Imperial spacecraft. To the right: X-Wings, used by the Rebels.</p>
 
 One of the really great things about the TIE fighters is the spherical design, which means that if they’re shot down, the body of the ship rolls to dispense kinetic energy instead of the pilot and their gear absorbing all of it, which leads to a higher survival rate. Notably, this is how Moff Gideon survives a pretty nasty fall in episode 6 of the Mandalorian and lives to make our favourite heroes’ lives more difficult in the following episodes.
 
@@ -61,11 +60,11 @@ I almost forgot about Rogue One, it was so bad. But the entire movie is basicall
 Erso’s drawings must be incredibly clear and concise, because within minutes of him giving them to the Rebellion, they’ve understood the location of the vulnerability and began planning an attack. Engineering drawings usually take _engineers_ multiple readings and verifications to fully understand, so I’m impressed that non-technical folks can pick up on the gist very quickly. (Obviously, the filmmakers do this for pacing reasons, but I still want his drafting skills.)
 
 <center><img src="/assets/images/deathstarplan.jpg" width="500" alt="Death Star Plans"></center>
-<center><p>This isn't super readable to me, to be honest, so the Rebels are probably just better than me.</p></center>
+<center><p>This isn't super readable to me, to be honest, so the Rebels are probably just better.</p></center>
 
 That being said, even with his ability to explain the technical details of his work, it’s really hard to justify working for the Empire. I don’t even think they offer health insurance or free lunches in the office, not that that would convince me. When Erso decides to design a vulnerability in the Death Star and leak the plans to the Resistance, that’s a good thing in my book. 
 
-Erso’s work with the Empire does raise questions about ethics: would it have been better if Erso had never joined the Empire or designed the Death Star, knowing that it would kill innocent people? Perhaps his conscience would have been cleaner, but the work would have continued on without him as a whistleblower. Should he have quit immediately after knowing the scope of the work he was doing, fearful of retaliation? One could argue that by implementing the vulnerability, Erso saved thousands of lives by providing an opportunity for the Rebellion to take out a major Imperial weapon, but on the other hand, he still did create a planet destroyer. Although the parallels aren’t quite so drastic, I can imagine a similar argument being applied to engineering and tech jobs right now: is it better to be implicated in an unethical project and shine the light on ethical lapses for the greater good, or not be involved at all and keep a clean conscience? These projects don’t happen if no one works on them, but we also can’t ask individuals to sacrifice their moral clarity.
+Erso’s work with the Empire does raise questions about ethics: would it have been better if Erso had never joined the Empire or designed the Death Star, knowing that it would kill innocent people? Perhaps his conscience would have been cleaner, but the work would have continued on without him as a whistleblower. Should he have quit immediately after knowing the scope of the work he was doing, fearful of retaliation? One could argue that by implementing the vulnerability, Erso saved thousands of lives by providing an opportunity for the Rebellion to take out a major Imperial weapon, but on the other hand, he still did create a planet destroyer. Although the parallels aren’t quite so drastic, I can imagine a similar argument being applied to engineering and tech jobs right now: is it better to be implicated in an unethical project and shine the light on ethical lapses for the greater good, or not be involved at all and keep a clean conscience? These projects don’t happen if no one works on them. We also can’t ask individuals to sacrifice their moral clarity.
 
 ##  __________________
 
