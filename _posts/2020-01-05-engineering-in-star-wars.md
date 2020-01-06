@@ -42,7 +42,8 @@ Stormtrooper armor is an example of the consequences of design. As with any obje
 
 <img src="/assets/images/tiefighter.jpg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"><img src="/assets/images/xwing.jpg" style="float: left; width: 40%; margin-right: 1%; margin-bottom: 0.5em;">
 <p>On the left: TIE fighters, the Imperial spacecraft. To the right: X-Wings, used by the Rebels.</p>
-
+<br>
+<br>
 One of the really great things about the TIE fighters is the spherical design, which means that if they’re shot down, the body of the ship rolls to dispense kinetic energy instead of the pilot and their gear absorbing all of it, which leads to a higher survival rate. Notably, this is how Moff Gideon survives a pretty nasty fall in episode 6 of the Mandalorian and lives to make our favourite heroes’ lives more difficult in the following episodes.
 
 By contrast, once an X-Wing is shot out of the sky, it doesn’t really have anywhere to go. There are obviously advantages to this, because they can’t roll off cliffs, but the X-Wings also don’t have many other safety features. They’re small craft designed to fly fast and shoot well, so only the lightest essentials are put on board. But I hope they have some serious airbags.
