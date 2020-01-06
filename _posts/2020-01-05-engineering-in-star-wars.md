@@ -6,9 +6,9 @@ categories:
   - Blog Posts
 tags:
   - star wars
-  - engineering depiction
-  - pop culture
+  - eng in pop culture
   - design
+  - ethics
 ---
 
 I’m a pretty big Star Wars fan, one could say, and in honour of Rise of Skywalker, I want to share some of my thoughts about engineering in Star Wars.
