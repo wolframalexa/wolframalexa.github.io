@@ -41,14 +41,14 @@ Stormtrooper armor is an example of the consequences of design. As with any obje
 ## III.	Are those X-Wings even safe?
 
 <img src="/assets/images/tiefighter.jpg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"><img src="/assets/images/xwing.jpg" style="float: left; width: 50%; margin-right: 1%; margin-bottom: 0.5em;">
-
+<br>
 <p><center>On the left: TIE fighters, the Imperial spacecraft. To the right: X-Wings, used by the Rebels.</center></p>
 
 One of the really great things about the TIE fighters is the spherical design, which means that if they’re shot down, the body of the ship rolls to dispense kinetic energy instead of the pilot and their gear absorbing all of it, which leads to a higher survival rate. Notably, this is how Moff Gideon survives a pretty nasty fall in episode 6 of the Mandalorian and lives to make our favourite heroes’ lives more difficult in the following episodes.
 
 By contrast, once an X-Wing is shot out of the sky, it doesn’t really have anywhere to go. There are obviously advantages to this, because they can’t roll off cliffs, but the X-Wings also don’t have many other safety features. They’re small craft designed to fly fast and shoot well, so only the lightest essentials are put on board. But I hope they have some serious airbags.
 
-
+<br>
 I almost forgot about Rogue One, it was so bad. But the entire movie is basically about engineering, so I had to rewatch it.
 
 ## IV.	There’s no way Galen Erso made this whole thing.
@@ -56,11 +56,11 @@ I almost forgot about Rogue One, it was so bad. But the entire movie is basicall
 [Galen Erso](https://starwars.fandom.com/wiki/Galen_Walton_Erso) is the most high-profile engineer in the Star Wars universe – the man designed the Death Star, and Rogue One is dedicated to his plans. But he does it essentially alone: we never see the drafters or any of his coworkers. This is ludicrous. Any project I’ve completed containing more than two breadboards was done in a group, and I can’t even imagine designing an entire Death Star alone. Besides, the Death Star needs so much different expertise: all the structural, HVAC, mechanical, electrical, and plumbing you’d have in a regular building, in addition to powering an unmoored space station with a nuclear reactor. I don’t think there’s a scenario in which one person has enough expertise to make an entire Death Star.
 
 
-## V.	Erso must be amazing at engineering communication. Ethics, questionable.
+## V.	Erso must be amazing at engineering communication. His ethics, questionable.
 
 Erso’s drawings must be incredibly clear and concise, because within minutes of him giving them to the Rebellion, they’ve understood the location of the vulnerability and began planning an attack. Engineering drawings usually take _engineers_ multiple readings and verifications to fully understand, so I’m impressed that non-technical folks can pick up on the gist very quickly. (Obviously, the filmmakers do this for pacing reasons, but I still want his drafting skills.)
 
-<center><img src="/assets/images/deathstarplan.jpg" width="300" alt="Death Star Plans"></center>
+<center><img src="/assets/images/deathstarplan.jpg" width="500" alt="Death Star Plans"></center>
 <center><p>This isn't super readable to me, to be honest, so the Rebels are probably just better than me.</p></center>
 
 That being said, even with his ability to explain the technical details of his work, it’s really hard to justify working for the Empire. I don’t even think they offer health insurance or free lunches in the office, not that that would convince me. When Erso decides to design a vulnerability in the Death Star and leak the plans to the Resistance, that’s a good thing in my book. 
