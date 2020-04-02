@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Switch Your Email, Protect Your Privacy"
-subtitle: A Comparison of Privacy-Focused Email for the Novice
+excerpt: A Comparison of Privacy-Focused Email for the Novice
 categories:
   - Blog Posts
 tags:
