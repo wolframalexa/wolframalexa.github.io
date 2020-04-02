@@ -22,8 +22,10 @@ It can certainly be a hassle to switch your primary email account. I had to upda
 
 In this post, I want to take a look at a few of the most common privacy-focused email providers. I explore what encryption protocol they use, whether they’re open-source, cost, features, and something I’ll call “level of intensity”. Although it’s cool for an email provider to be open source, any one of the sites on this list are going to require you to trust them to some degree, particularly if you don’t have the knowledge to audit all of their code    . Otherwise, you might as well not use email at all. Level of intensity is a very subjective criteria, but my aim is to measure how much of a hassle it is to use any platform (i.e. could you convert your friends? Your geeky roommate? Your grandma?). The reality is that not everyone needs a super secure email client you can only access over Tor – you might just want to limit tracking and data leaks, and that’s good enough for you. I’m definitely a huge n00b in the world of online privacy, so please feel free to suggest or point out something I missed [here](https://www.alexajakob.com/about.html).
 
+###
+###
 
-##Tutanota 
+## Tutanota 
 
 If you’ve checked out my contact page, you’ll notice this is what I use. Tutanota presents itself as an easy alternative for those looking to deGoogle: they’ve even made their own captcha instead of using Google’s “Are you a robot?” (I hope I’m not!), and are working on improving their encrypted calendar. That being said, I find they are lacking in features for free users.
 
