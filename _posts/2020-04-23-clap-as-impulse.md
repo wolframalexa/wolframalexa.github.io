@@ -15,7 +15,39 @@ Similar to movie clapperboards, clapping is a very low-tech, easy way to make vi
 
 That being said, there is an interesting way the clap can be used to edit audio. By having each person clap at the beginning of their video, in post, you could edit the audio as if they were all in the same room. It all has to do with the impulse response.
 
-first, some signals and system theory (from signals n systems w fontaine!)
+---
+
+First, some signals and system theory. Feel free to skip this section if you already understand transfer functions, the z transform, and the impulse response.
+
+We call a **system** something that we give an input x[n] to, the system does something to it, and gives us an output y[n]. I'll focus here on the discrete case, because audio is sampled - that's what the [n] means, each integer n indexes a different sample - but your input/output could also be a continuous function (usually of time).
+
+[graphic]
+
+A major way of describing a system is by its transfer function, but to understand that we have to think about domains. We usually think in the time domain, since we watch the evolution as n gets larger with time. However, we can also think of this in the *frequency domain*, where we analyze the signal with respect to frequency instead of time. One cool property of the transform is that convolution in the time domain becomes multiplication in the frequency domain, so lots of math gets easier.
+
+How to get there? The z-transform takes us from time to frequency, and the inverse z-transform from frequency to time.
+
+[graphics]
+
+Once we have this frequency-domain representation, we can describe the system as Y[z] = H[z]*X[z], where H[z] is the transfer function, a function of z. We can't have a transfer function in the time domain because the system is described with difference equations, so you can't simply multiply the input by a function of time to get the output.
+
+
+
+Systems are *linear* if you can scale and add multiple inputs and the associated outputs are scaled and added in the same way. That is, if you input a*x1[n]+b*x2[n], you'll get out a*y1[n]+b*y2[n], as in the graphic below.
+
+[graphic]
+
+Systems are *time-invariant* if you can delay the input and it delays the output by the same amount. Inputting x[n+m], you get the output y[n+m].
+
+[graphic]
+
+One of the main properties of a system is its impulse response - what happens if you input the delta function? We call this h[n].
+
+[LaTeX of the delta function]
+
+If a system is both linear and time-invariant (LTI), it has some really cool properties and lots of math becomes easier. This is why we often approximate systems as linear. For example, for an LTI system, the impulse response is the same thing as the transfer function.
+
+
 - what is an impulse response
 - why is it so fundamental
 	- what is an LTI system
