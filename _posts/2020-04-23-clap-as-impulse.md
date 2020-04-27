@@ -6,7 +6,7 @@ categories:
   - Blog Posts
 tags:
   - signals
-  - design
+  - audio
 ---
 
 Now that I've been stuck at home, I've been watching a lot more YouTube videos, and I've noticed something peculiar much of the post-quarantine content: people clapping their hands before beginning to film, [like](https://www.youtube.com/watch?v=ezZosUYlvMo) [so](https://youtu.be/LtnoPra5CIs). And so, in the enterprising engineering spirit, I began to wonder why.
@@ -25,11 +25,11 @@ We call a **system** something that we give an input x[n] to, the system does so
 
 A system can be described by its transfer function, but to understand that we have to think about domains. We usually think in the time domain, because the output evolves as n gets larger with time. However, we can also think of this in the *frequency domain*, where we analyze the signal with respect to frequency instead of time. Although it can be harder to visualize at first, understand that each value in the frequency domain is a coefficient of that frequency - the larger the coefficient, the more that frequency contributes to the output. One cool property of the transform domain is that convolution in the time domain becomes multiplication in the frequency domain, so lots of math gets easier.
 
-How do we get there? For a digital system, the z-transform takes us from time to frequency, and the inverse z-transform from frequency to time.
+How do we get there? The Fourier transform takes us from time to frequency, and the inverse Fourier transform from the frequency domain to time.
 
 [graphics]
 
-Once we have this frequency-domain representation, we can describe the system as Y[z] = H[z]*X[z], where H[z] is the transfer function, a function of z. We can't have a transfer function in the time domain because the system is described with difference equations, so you can't simply multiply the input by a function of time to get the output.
+Once we have this frequency-domain representation, we can describe the system as Y[w] = H[w]*X[w], where H[w] is the transfer function, a function of the frequency, w. We can't have a transfer function in the time domain because the system is described with difference equations, so you can't simply multiply the input by a function of time to get the output.
 
 A few properties of systems in general: they're *linear* if you can scale and add multiple inputs and the associated outputs are scaled and added in the same way. That is, if you input a*x1[n]+b*x2[n], you'll get out a*y1[n]+b*y2[n], as in the graphic below.
 
@@ -47,13 +47,21 @@ If a system is both linear and time-invariant (LTI), it has some really cool pro
 
 ---
 
-Now that we know what an LTI system is, why can we model a room as one? And what's the use?
+Now that we know what an LTI system is, why can we model a room as one? And why is it useful?
 
-When you're inside a room, sound bounces off walls and other objects when travelling from the source to the receiver, which creates echo and reverberation unique to that room that's picked up by the receiver. Assuming you don't live in the Harry Potter universe and that your furnishings don't change, we can say that the room is a linear time-invariant system. And because the received sound is unique to the room you're in because of the placement of objects, this system is unique to your room.
+When you're inside a room, sound bounces off walls and other objects when travelling from the source to the receiver, which creates echo and reverberation unique to that room that's picked up by the receiver. Assuming you don't live in the Harry Potter universe and that your furnishings don't change, we can say that the room is a linear time-invariant system. And since the received sound is unique to the room you're in because of the placement of objects, this system is unique to your room[^1]. And so the impulse response is the intrinsic "sound" of the room.
 
-
+So we've approximated the room as an LTI system, but where do we get the impulse response from? Any sudden and loud sound - a stomp, popping a balloon, or a clap - can be approximated as an impulse because of its amplitude and narrow width, and it's probably the closest we'll get to an impulse in the real world. Out of these options, the clap is easiest and offers the added benefit of synchronizing audio and video.
 
 ---
+
+So you use your clap to isolate the impulse response of your clip, and save it. Now what?
+
+If we want to make everyone sound as if they are in the same room, we want to remove the unique impulse responses of each individual room, and apply the same impulse response to all clips.
+
+
+
+Repeat this process for each of n clips.
 
 
 
@@ -64,13 +72,13 @@ X why is it so fundamental
 X convolution in time is multiplication in frequency
 	X what is the frequency domain (how do I visualize it?? it'll be ok)
 
-- how do you obtain the impulse response
-	- by clapping!
-	- how good of an approximation is a clap to an impulse?
+X how do you obtain the impulse response
+	X by clapping!
+	X how good of an approximation is a clap to an impulse?
 
 - once you have the impulse response, how do you apply it to everything else?
-	- each clip has its own impulse response (n people in n different rooms)
-	- find the impulse response for each of their rooms
+	X each clip has its own impulse response (n people in n different rooms)
+	X find the impulse response for each of their rooms
 	- now remove it by dividing it out (in the frequency domain of course)
 
 	- transform your audio into the frequency domain
@@ -87,3 +95,4 @@ X convolution in time is multiplication in frequency
 
 
 ** need some way to get eqns in here!**
+[^1]: As suggested in [this](https://www.researchgate.net/publication/304285356_SoundLoc_Accurate_room-level_indoor_localization_using_acoustic_signatures) paper.
