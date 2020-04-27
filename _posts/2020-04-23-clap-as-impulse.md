@@ -19,21 +19,19 @@ That being said, there is an interesting way the clap can be used to edit audio.
 
 First, some signals and system theory. Feel free to skip this section if you already understand transfer functions, the z transform, and the impulse response.
 
-We call a **system** something that we give an input x[n] to, the system does something to it, and gives us an output y[n]. I'll focus here on the discrete case, because audio is sampled - that's what the [n] means, each integer n indexes a different sample - but your input/output could also be a continuous function (usually of time).
+We call a **system** something that we give an input x[n] to, the system does something to it, and gives us an output y[n]. I'll focus here on the discrete case, because audio is sampled - that's what the [n] means, each integer n indexes a different sample - but your input/output could also be a continuous function (usually of time). I'm also neglecting quantization, so I'll use discrete/digital interchangeably.
 
 [graphic]
 
-A major way of describing a system is by its transfer function, but to understand that we have to think about domains. We usually think in the time domain, since we watch the evolution as n gets larger with time. However, we can also think of this in the *frequency domain*, where we analyze the signal with respect to frequency instead of time. One cool property of the transform is that convolution in the time domain becomes multiplication in the frequency domain, so lots of math gets easier.
+A system can be described by its transfer function, but to understand that we have to think about domains. We usually think in the time domain, because the output evolves as n gets larger with time. However, we can also think of this in the *frequency domain*, where we analyze the signal with respect to frequency instead of time. Although it can be harder to visualize at first, understand that each value in the frequency domain is a coefficient of that frequency - the larger the coefficient, the more that frequency contributes to the output. One cool property of the transform domain is that convolution in the time domain becomes multiplication in the frequency domain, so lots of math gets easier.
 
-How to get there? The z-transform takes us from time to frequency, and the inverse z-transform from frequency to time.
+How do we get there? For a digital system, the z-transform takes us from time to frequency, and the inverse z-transform from frequency to time.
 
 [graphics]
 
 Once we have this frequency-domain representation, we can describe the system as Y[z] = H[z]*X[z], where H[z] is the transfer function, a function of z. We can't have a transfer function in the time domain because the system is described with difference equations, so you can't simply multiply the input by a function of time to get the output.
 
-
-
-Systems are *linear* if you can scale and add multiple inputs and the associated outputs are scaled and added in the same way. That is, if you input a*x1[n]+b*x2[n], you'll get out a*y1[n]+b*y2[n], as in the graphic below.
+A few properties of systems in general: they're *linear* if you can scale and add multiple inputs and the associated outputs are scaled and added in the same way. That is, if you input a*x1[n]+b*x2[n], you'll get out a*y1[n]+b*y2[n], as in the graphic below.
 
 [graphic]
 
@@ -41,19 +39,30 @@ Systems are *time-invariant* if you can delay the input and it delays the output
 
 [graphic]
 
-One of the main properties of a system is its impulse response - what happens if you input the delta function? We call this h[n].
+One of the main properties of a system is its impulse response - what happens if you input the delta function? We call this output h[n].
 
-[LaTeX of the delta function]
+[LaTeX of the delta function, plus graph of both delta and a sample impulse response]
 
-If a system is both linear and time-invariant (LTI), it has some really cool properties and lots of math becomes easier. This is why we often approximate systems as linear. For example, for an LTI system, the impulse response is the same thing as the transfer function.
+If a system is both linear and time-invariant (LTI), it has some really cool properties and lots of math becomes easier. This is why we often approximate systems as linear. One fundamental property of an LTI system is that its impulse response is the equivalent of the transfer function in the time domain, which makes the system far easier to study.
+
+---
+
+Now that we know what an LTI system is, why can we model a room as one? And what's the use?
+
+When you're inside a room, sound bounces off walls and other objects when travelling from the source to the receiver, which creates echo and reverberation unique to that room that's picked up by the receiver. Assuming you don't live in the Harry Potter universe and that your furnishings don't change, we can say that the room is a linear time-invariant system. And because the received sound is unique to the room you're in because of the placement of objects, this system is unique to your room.
 
 
-- what is an impulse response
-- why is it so fundamental
-	- what is an LTI system
-	- why is a room an LTI system
-- convolution in time is multiplication in frequency
-	- what is the frequency domain (how do I visualize it?? it'll be ok)
+
+---
+
+
+
+X what is an impulse response
+X why is it so fundamental
+	X what is an LTI system
+	X why is a room an LTI system
+X convolution in time is multiplication in frequency
+	X what is the frequency domain (how do I visualize it?? it'll be ok)
 
 - how do you obtain the impulse response
 	- by clapping!
