@@ -67,6 +67,11 @@ Repeat this process for each of n clips, then synchronize them with the clap. Ev
 
 [include graphic of these systems]
 
+
+
+If you found this really interesting, I found [this](https://www.researchgate.net/publication/277812824_The_Hand_Clap_as_an_Impulse_Source_for_Measuring_Room_Acoustics) paper really interesting as it relates to acoustics and the impulse response for measuring acoustics. (Surprisingly, it suggests pistol shots as an alternative to handclapping because of the intensity!)
+
 [^1]: As suggested in [this](https://www.researchgate.net/publication/304285356_SoundLoc_Accurate_room-level_indoor_localization_using_acoustic_signatures) paper.
 [^2]: That's *one* way of hanging out with your friends in quarantine, I guess?
 [^3]: No doubt they're actually more complicated and cost more money, but the underlying principle is there.
+
