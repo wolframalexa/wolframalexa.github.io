@@ -57,42 +57,16 @@ So we've approximated the room as an LTI system, but where do we get the impulse
 
 So you use your clap to isolate the impulse response of your clip, and save it. Now what?
 
-If we want to make everyone sound as if they are in the same room, we want to remove the unique impulse responses of each individual room, and apply the same impulse response to all clips.
+If we want to make everyone sound as if they are in the same room, we can remove the unique impulse responses of each individual room, and apply the same impulse response to all clips.[^2]
 
+Remember that convolution in the time domain is multiplication in the frequency domain, and that the impulse response in time is the transfer function in frequency. Once you've obtained the impulse response of a clip, calculate its Fourier transform. Transform the recording into the frequency domain as well, and you can divide out the transfer function to simply get speech. Most audio post-processing mediums have tools that can do this for you, and this is essentially how they work.[^3]
 
+Now that you have just speech, still in the frequency domain, multiply it by the transfer function in frequency of the universal room - now perform an inverse Fourier transform, and you have the filtered audio back in the time domain. 
 
-Repeat this process for each of n clips.
+Repeat this process for each of n clips, then synchronize them with the clap. Everyone is in sync and in the same room now!
 
+[include graphic of these systems]
 
-
-X what is an impulse response
-X why is it so fundamental
-	X what is an LTI system
-	X why is a room an LTI system
-X convolution in time is multiplication in frequency
-	X what is the frequency domain (how do I visualize it?? it'll be ok)
-
-X how do you obtain the impulse response
-	X by clapping!
-	X how good of an approximation is a clap to an impulse?
-
-- once you have the impulse response, how do you apply it to everything else?
-	X each clip has its own impulse response (n people in n different rooms)
-	X find the impulse response for each of their rooms
-	- now remove it by dividing it out (in the frequency domain of course)
-
-	- transform your audio into the frequency domain
-	- the impulse response is pretty much a filter
-	- now multiply
-	- your output is the audio*imp in the frq domain
-	- now do IFFT back to time
-	- play everything at the same time synchronizing w the clap
-
-
-
-
-
-
-
-** need some way to get eqns in here!**
 [^1]: As suggested in [this](https://www.researchgate.net/publication/304285356_SoundLoc_Accurate_room-level_indoor_localization_using_acoustic_signatures) paper.
+[^2]: That's *one* way of hanging out with your friends in quarantine, I guess?
+[^3]: No doubt they're actually more complicated and cost more money, but the underlying principle is there.
