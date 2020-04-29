@@ -27,7 +27,10 @@ A system can be described by its transfer function, but to understand that we ha
 
 How do we get there? The Fourier transform takes us from time to frequency, and the inverse Fourier transform from the frequency domain to time.[^0]
 
-[graphics]
+![Example of a signal and its Fourier Transform](/assets/images/SampleSignals.png)
+![Example of a signal and its Fourier Transform](/assets/images/SampleFFT.png)
+
+Here we have a two sine waves and their Fourier transforms. Notice that the frequency of the second one is higher than that of the first one, and its second peak frequency is higher than that of the first signal.[^1]
 
 Once we have this frequency-domain representation, we can describe the system as Y[w] = H[w]*X[w], where H[w] is the transfer function, a function of the frequency, w. We can't have a transfer function in the time domain because the system is described with difference equations, so you can't simply multiply the input by a function of time to get the output.
 
@@ -43,13 +46,20 @@ One of the main properties of a system is its impulse response - what happens if
 
 [LaTeX of the delta function, plus graph of both delta and a sample impulse response]
 
+![The Dirac-Delta Function](/assets/images/DiracDelta.png)
+This is the Dirac-Delta function. From what I hear, Dirac was a cool guy.
+
+![A sample impulse response](/assets/images/SampleIR.png)
+Here's a sample impulse response for a Butterworth filter. An impulse response can basically be anything!
+
+
 If a system is both linear and time-invariant (LTI), it has some really cool properties and lots of math becomes easier. This is why we often approximate systems as linear. One fundamental property of an LTI system is that its impulse response is the equivalent of the transfer function in the time domain, which makes the system far easier to study.
 
 ---
 
 Now that we know what an LTI system is, why can we model a room as one? And why is it useful?
 
-When you're inside a room, sound bounces off walls and other objects when travelling from the source to the receiver, which creates echo and reverberation unique to that room that's picked up by the receiver. Assuming you don't live in the Harry Potter universe and that your furnishings don't change, we can say that the room is a linear time-invariant system. And since the received sound is unique to the room you're in because of the placement of objects, this system is unique to your room[^1]. And so the impulse response is the intrinsic "sound" of the room.
+When you're inside a room, sound bounces off walls and other objects when travelling from the source to the receiver, which creates echo and reverberation unique to that room that's picked up by the receiver. Assuming you don't live in the Harry Potter universe and that your furnishings don't change, we can say that the room is a linear time-invariant system. And since the received sound is unique to the room you're in because of the placement of objects, this system is unique to your room[^2]. And so the impulse response is the intrinsic "sound" of the room.
 
 So we've approximated the room as an LTI system, but where do we get the impulse response from? Any sudden and loud sound - a stomp, popping a balloon, or a clap - can be approximated as an impulse because of its amplitude and narrow width, and it's probably the closest we'll get to an impulse in the real world. Out of these options, the clap is easiest and offers the added benefit of synchronizing audio and video.
 
@@ -57,9 +67,9 @@ So we've approximated the room as an LTI system, but where do we get the impulse
 
 So you use your clap to isolate the impulse response of your clip, and save it. Now what?
 
-If we want to make everyone sound as if they are in the same room, we can remove the unique impulse responses of each individual room, and apply the same impulse response to all clips.[^2]
+If we want to make everyone sound as if they are in the same room, we can remove the unique impulse responses of each individual room, and apply the same impulse response to all clips.[^3]
 
-Remember that convolution in the time domain is multiplication in the frequency domain, and that the impulse response in time is the transfer function in frequency. Once you've obtained the impulse response of a clip, calculate its Fourier transform. Transform the recording into the frequency domain as well, and you can divide out the transfer function to simply get speech. Most audio post-processing mediums have tools that can do this for you, and this is essentially how they work.[^3]
+Remember that convolution in the time domain is multiplication in the frequency domain, and that the impulse response in time is the transfer function in frequency. Once you've obtained the impulse response of a clip, calculate its Fourier transform. Transform the recording into the frequency domain as well, and you can divide out the transfer function to simply get speech. Most audio post-processing mediums have tools that can do this for you, and this is essentially how they work.[^4]
 
 Now that you have just speech, still in the frequency domain, multiply it by the transfer function in frequency of the universal room - now perform an inverse Fourier transform, and you have the filtered audio back in the time domain. 
 
@@ -74,7 +84,7 @@ If you found this really interesting, I found [this](https://www.researchgate.ne
 
 [^0]: If you're interested in how I generated these graphs, I published the MATLAB code as a [gist](https://gist.github.com/wolframalexa/3e42df8d575365695186a81f440771d5)[^0.5]
 [^0.5]: I know numbering starting at 0 is ironic since I used MATLAB. Just roll with it.
-[^1]: As suggested in [this](https://www.researchgate.net/publication/304285356_SoundLoc_Accurate_room-level_indoor_localization_using_acoustic_signatures) paper.
-[^2]: That's *one* way of hanging out with your friends in quarantine, I guess?
-[^3]: No doubt they're actually more complicated and cost more money, but the underlying principle is there.
-
+[^1]: The fact there are two peaks is known as foldover or [Nyquist frequency](https://en.wikipedia.org/wiki/Nyquist_frequency). Topic for another time.
+[^2]: As suggested in [this](https://www.researchgate.net/publication/304285356_SoundLoc_Accurate_room-level_indoor_localization_using_acoustic_signatures) paper.
+[^3]: That's *one* way of hanging out with your friends in quarantine, I guess?
+[^4]: No doubt they're actually more complicated and cost more money, but the underlying principle is there.
