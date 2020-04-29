@@ -47,9 +47,9 @@ How do we get to the transform domain? The Fourier transform takes us from time 
 
 Here we have a two sine waves and their Fourier transforms. Notice that the frequency of the second one is higher than that of the first one, and its second peak frequency is higher than that of the first signal.[^1]
 
-Once we have this frequency-domain representation, we can describe the system as Y[w] = H[w]*X[w], where H[w] is the transfer function, a function of the frequency, w. We can't have a transfer function in the time domain because the system is described with difference equations, so you can't simply multiply the input by a function of time to get the output.
+Once we have this frequency-domain representation, we can describe the system as Y[w] = H[w]\*X[w], where H[w] is the transfer function, a function of the frequency, w. We can't have a transfer function in the time domain because the system is described with difference equations, so you can't simply multiply the input by a function of time to get the output.
 
-A few properties of systems in general: they're *linear* if you can scale and add multiple inputs and the associated outputs are scaled and added in the same way. That is, if you input a*x1[n]+b*x2[n], you'll get out a*y1[n]+b*y2[n], as in the graphic below.
+A few properties of systems in general: they're *linear* if you can scale and add multiple inputs and the associated outputs are scaled and added in the same way. That is, if you input a\*x1[n]+b\*x2[n], you'll get out a\*y1[n]+b\*y2[n], as in the graphic below.
 
 ![linear system](/assets/images/linearsystem.png)
 
