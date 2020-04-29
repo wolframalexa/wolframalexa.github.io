@@ -31,8 +31,10 @@ Sample transfer function for a system in the Laplace domain (variable s). Y(s) i
 How do we get to the transform domain? The Fourier transform takes us from time to frequency, and the inverse Fourier transform from the frequency domain to time.[^0]
 
 ![Example of a signal and its Fourier Transform](/assets/images/SampleSignals.png)
+![Example](/assets/images/SampleSignal2.png)
 
 ![Example of a signal and its Fourier Transform](/assets/images/SampleFFT.png)
+![ExampleFT](/assets/images/SampleFFT2.png)
 
 Here we have a two sine waves and their Fourier transforms. Notice that the frequency of the second one is higher than that of the first one, and its second peak frequency is higher than that of the first signal.[^1]
 
