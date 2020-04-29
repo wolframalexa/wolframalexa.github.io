@@ -32,11 +32,11 @@ How do we get to the transform domain? The Fourier transform takes us from time 
 
 ![Example of a signal and its Fourier Transform](/assets/images/SampleSignals.png)
 
-![Example](/assets/images/SampleSignal2.png)
+![Example of a signal and its Fourier Transform](/assets/images/SampleSignal2.png)
 
 ![Example of a signal and its Fourier Transform](/assets/images/SampleFFT.png)
 
-![ExampleFT](/assets/images/SampleFFT2.png)
+![Example of a signal and its Fourier Transform](/assets/images/SampleFFT2.png)
 
 Here we have a two sine waves and their Fourier transforms. Notice that the frequency of the second one is higher than that of the first one, and its second peak frequency is higher than that of the first signal.[^1]
 
