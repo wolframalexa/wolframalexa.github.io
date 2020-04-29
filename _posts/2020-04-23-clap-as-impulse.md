@@ -20,12 +20,15 @@ That being said, there is an interesting way the clap can be used to edit audio.
 First, some signals and system theory. Feel free to skip this section if you already understand transfer functions, the z transform, and the impulse response.
 
 We call a **system** something that we give an input x[n] to, the system does something to it, and gives us an output y[n]. I'll focus here on the discrete case, because audio is sampled - that's what the [n] means, each integer n indexes a different sample - but your input/output could also be a continuous function (usually of time). I'm also neglecting quantization, so I'll use discrete/digital interchangeably.
-
-[graphic]
+![system](/assets/images/system.png)
 
 A system can be described by its transfer function, but to understand that we have to think about domains. We usually think in the time domain, because the output evolves as n gets larger with time. However, we can also think of this in the *frequency domain*, where we analyze the signal with respect to frequency instead of time. Although it can be harder to visualize at first, understand that each value in the frequency domain is a coefficient of that frequency - the larger the coefficient, the more that frequency contributes to the output. One cool property of the transform domain is that convolution in the time domain becomes multiplication in the frequency domain, so lots of math gets easier.
 
-How do we get there? The Fourier transform takes us from time to frequency, and the inverse Fourier transform from the frequency domain to time.[^0]
+![transfer function](/assets/images/transferfcneqn.png)
+
+Sample transfer function for a system in the Laplace domain (variable s). Y(s) is the output, X(s) is the input, and H(s) is the transfer function relating the two.
+
+How do we get to the transform domain? The Fourier transform takes us from time to frequency, and the inverse Fourier transform from the frequency domain to time.[^0]
 
 ![Example of a signal and its Fourier Transform](/assets/images/SampleSignals.png)
 ![Example of a signal and its Fourier Transform](/assets/images/SampleFFT.png)
@@ -36,20 +39,20 @@ Once we have this frequency-domain representation, we can describe the system as
 
 A few properties of systems in general: they're *linear* if you can scale and add multiple inputs and the associated outputs are scaled and added in the same way. That is, if you input a*x1[n]+b*x2[n], you'll get out a*y1[n]+b*y2[n], as in the graphic below.
 
-[graphic]
+![linear system](/assets/images/linearsystem.png)
 
 Systems are *time-invariant* if you can delay the input and it delays the output by the same amount. Inputting x[n+m], you get the output y[n+m].
 
-[graphic]
+![time invariant system](/assets/images/timeinvariantsystem.png)
 
 One of the main properties of a system is its impulse response - what happens if you input the delta function? We call this output h[n].
 
-[LaTeX of the delta function, plus graph of both delta and a sample impulse response]
-
 ![The Dirac-Delta Function](/assets/images/DiracDelta.png)
+
 This is the Dirac-Delta function. From what I hear, Dirac was a cool guy.
 
 ![A sample impulse response](/assets/images/SampleIR.png)
+
 Here's a sample impulse response for a Butterworth filter. An impulse response can basically be anything!
 
 
@@ -75,15 +78,10 @@ Now that you have just speech, still in the frequency domain, multiply it by the
 
 Repeat this process for each of n clips, then synchronize them with the clap. Everyone is in sync and in the same room now!
 
-[include graphic of these systems]
+If you found this concept really interesting and want to read more, I found [this](https://www.researchgate.net/publication/277812824_The_Hand_Clap_as_an_Impulse_Source_for_Measuring_Room_Acoustics) paper really interesting as it relates to acoustics and the impulse response for measuring acoustics. (Surprisingly, it suggests pistol shots as an alternative to handclapping because of the intensity!)
 
 
-
-If you found this really interesting, I found [this](https://www.researchgate.net/publication/277812824_The_Hand_Clap_as_an_Impulse_Source_for_Measuring_Room_Acoustics) paper really interesting as it relates to acoustics and the impulse response for measuring acoustics. (Surprisingly, it suggests pistol shots as an alternative to handclapping because of the intensity!)
-
-
-[^0]: If you're interested in how I generated these graphs, I published the MATLAB code as a [gist](https://gist.github.com/wolframalexa/3e42df8d575365695186a81f440771d5)[^0.5]
-[^0.5]: I know numbering starting at 0 is ironic since I used MATLAB. Just roll with it.
+[^0]: If you're interested in how I generated these graphs, I published the MATLAB code as a [gist](https://gist.github.com/wolframalexa/3e42df8d575365695186a81f440771d5)
 [^1]: The fact there are two peaks is known as foldover or [Nyquist frequency](https://en.wikipedia.org/wiki/Nyquist_frequency). Topic for another time.
 [^2]: As suggested in [this](https://www.researchgate.net/publication/304285356_SoundLoc_Accurate_room-level_indoor_localization_using_acoustic_signatures) paper.
 [^3]: That's *one* way of hanging out with your friends in quarantine, I guess?
