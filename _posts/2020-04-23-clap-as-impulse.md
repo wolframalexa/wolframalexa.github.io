@@ -25,7 +25,7 @@ We call a **system** something that we give an input x[n] to, the system does so
 
 A system can be described by its transfer function, but to understand that we have to think about domains. We usually think in the time domain, because the output evolves as n gets larger with time. However, we can also think of this in the *frequency domain*, where we analyze the signal with respect to frequency instead of time. Although it can be harder to visualize at first, understand that each value in the frequency domain is a coefficient of that frequency - the larger the coefficient, the more that frequency contributes to the output. One cool property of the transform domain is that convolution in the time domain becomes multiplication in the frequency domain, so lots of math gets easier.
 
-How do we get there? The Fourier transform takes us from time to frequency, and the inverse Fourier transform from the frequency domain to time.
+How do we get there? The Fourier transform takes us from time to frequency, and the inverse Fourier transform from the frequency domain to time.[^0]
 
 [graphics]
 
@@ -71,6 +71,9 @@ Repeat this process for each of n clips, then synchronize them with the clap. Ev
 
 If you found this really interesting, I found [this](https://www.researchgate.net/publication/277812824_The_Hand_Clap_as_an_Impulse_Source_for_Measuring_Room_Acoustics) paper really interesting as it relates to acoustics and the impulse response for measuring acoustics. (Surprisingly, it suggests pistol shots as an alternative to handclapping because of the intensity!)
 
+
+[^0]: If you're interested in how I generated these graphs, I published the MATLAB code as a [gist](https://gist.github.com/wolframalexa/3e42df8d575365695186a81f440771d5)[^0.5]
+[^0.5]: I know numbering starting at 0 is ironic since I used MATLAB. Just roll with it.
 [^1]: As suggested in [this](https://www.researchgate.net/publication/304285356_SoundLoc_Accurate_room-level_indoor_localization_using_acoustic_signatures) paper.
 [^2]: That's *one* way of hanging out with your friends in quarantine, I guess?
 [^3]: No doubt they're actually more complicated and cost more money, but the underlying principle is there.
