@@ -32,6 +32,8 @@ How do we get to the transform domain? The Fourier transform takes us from time 
 
 ![Example of a signal and its Fourier Transform](/assets/images/SampleSignals.png)
 
+
+<img src = "/assets/images/SampleSignal2.png">
 ![Example of a signal and its Fourier Transform](/assets/images/SampleSignal2.png)
 
 ![Example of a signal and its Fourier Transform](/assets/images/SampleFFT.png)
