@@ -9,15 +9,15 @@ tags:
   - audio
 ---
 
-Now that I've been stuck at home, I've been watching a lot more YouTube videos, and I've noticed something peculiar much of the post-quarantine content: people clapping their hands before beginning to film, [like](https://www.youtube.com/watch?v=ezZosUYlvMo) [so](https://youtu.be/LtnoPra5CIs). And so, in the enterprising engineering spirit, I began to wonder why.
+Now that I've been stuck at home, I've been watching a lot more YouTube videos, and I've noticed something peculiar: people clapping their hands before beginning to film, [like](https://www.youtube.com/watch?v=ezZosUYlvMo) [so](https://youtu.be/LtnoPra5CIs). And so, in the enterprising engineering spirit, I began to wonder why.
 
-Similar to movie clapperboards, clapping is a very low-tech, easy way to make videos cleaner and crisper. Most commonly, this helps synchronize video and audio in post-processing. In order to achieve better sound quality, videographers will often use microphones separate from their video cameras: think boom mics in movies, or hidden clip mics for YouTube vloggers. Since a single clap creates a big spike in the audio spectrum that is easily synced with the video of someone clapping, it's very helpful to clap at the start of a video. Particularly if you're using multiple cameras, this allows you to move seamlessly between shots while keeping the same audio track.
+Similar to movie clapperboards, clapping is a very low-tech, easy way to make videos cleaner and crisper. Most commonly, this helps synchronize video and audio in post-processing. In order to achieve better sound quality, videographers will often use microphones separate from their video cameras: think boom mics in movies, or hidden clip mics for YouTube vloggers. Since a single clap creates a big spike in the audio spectrum that is easily synced with the video of someone clapping, it's helpful to clap at the start of a video to connect the two. Particularly if you're using multiple cameras, this allows you to move seamlessly between shots while keeping the same audio track.
 
-That being said, there is an interesting way the clap can be used to edit audio. By having each person clap at the beginning of their video, in post, you could edit the audio as if they were all in the same room. It all has to do with the impulse response.
+That being said, there is another interesting way the clap can be used to edit audio. By having each person clap at the beginning of their video, in post, you could edit the audio as if they were all in the same room. It all has to do with the impulse response.
 
 ---
 
-First, some signals and system theory. Feel free to skip this section if you already understand transfer functions, the z transform, and the impulse response.
+First, some signals and system theory. Feel free to skip this section if you already understand transfer functions, the Fourier transform, and the impulse response.
 
 We call a **system** something that we give an input x[n] to, the system does something to it, and gives us an output y[n]. I'll focus here on the discrete case, because audio is sampled - that's what the [n] means, each integer n indexes a different sample - but your input/output could also be a continuous function (usually of time). I'm also neglecting quantization, so I'll use discrete/digital interchangeably.
 ![system](/assets/images/system.png)
@@ -31,6 +31,7 @@ Sample transfer function for a system in the Laplace domain (variable s). Y(s) i
 How do we get to the transform domain? The Fourier transform takes us from time to frequency, and the inverse Fourier transform from the frequency domain to time.[^0]
 
 ![Example of a signal and its Fourier Transform](/assets/images/SampleSignals.png)
+
 ![Example of a signal and its Fourier Transform](/assets/images/SampleFFT.png)
 
 Here we have a two sine waves and their Fourier transforms. Notice that the frequency of the second one is higher than that of the first one, and its second peak frequency is higher than that of the first signal.[^1]
@@ -45,7 +46,7 @@ Systems are *time-invariant* if you can delay the input and it delays the output
 
 ![time invariant system](/assets/images/timeinvariantsystem.png)
 
-One of the main properties of a system is its impulse response - what happens if you input the delta function? We call this output h[n].
+One of the main properties of a system is its impulse response - what happens if you input the delta function (which returns the value 1 for input 0 and 0 for all other values)? We call this output h[n].
 
 ![The Dirac-Delta Function](/assets/images/DiracDelta.png)
 
@@ -54,7 +55,6 @@ This is the Dirac-Delta function. From what I hear, Dirac was a cool guy.
 ![A sample impulse response](/assets/images/SampleIR.png)
 
 Here's a sample impulse response for a Butterworth filter. An impulse response can basically be anything!
-
 
 If a system is both linear and time-invariant (LTI), it has some really cool properties and lots of math becomes easier. This is why we often approximate systems as linear. One fundamental property of an LTI system is that its impulse response is the equivalent of the transfer function in the time domain, which makes the system far easier to study.
 
@@ -77,6 +77,8 @@ Remember that convolution in the time domain is multiplication in the frequency 
 Now that you have just speech, still in the frequency domain, multiply it by the transfer function in frequency of the universal room - now perform an inverse Fourier transform, and you have the filtered audio back in the time domain. 
 
 Repeat this process for each of n clips, then synchronize them with the clap. Everyone is in sync and in the same room now!
+
+---
 
 If you found this concept really interesting and want to read more, I found [this](https://www.researchgate.net/publication/277812824_The_Hand_Clap_as_an_Impulse_Source_for_Measuring_Room_Acoustics) paper really interesting as it relates to acoustics and the impulse response for measuring acoustics. (Surprisingly, it suggests pistol shots as an alternative to handclapping because of the intensity!)
 
