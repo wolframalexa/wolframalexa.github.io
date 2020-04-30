@@ -59,9 +59,9 @@ Systems are *time-invariant* if you can delay the input and it delays the output
 
 One of the main properties of a system is its impulse response - what happens if you input the delta function (which returns the value 1 for input 0 and 0 for all other values)? We call this output h[n].
 
-![The Dirac-Delta Function](/assets/images/DiracDelta.png)
+![The Kronecker-Delta Function](/assets/images/KroneckerDelta.png)
 
-This is the Dirac-Delta function. From what I hear, Dirac was a cool guy.
+This is the Kronecker-Delta function. From what I hear, Kronecker was a cool guy.
 
 ![A sample impulse response](/assets/images/SampleIR.png)
 
