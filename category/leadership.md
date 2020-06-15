@@ -35,5 +35,5 @@ sidebar_link: true
 
 # oSTEM
 ## The Cooper Union
-* FY20 and FY21: President and Founder
+* **FY20 and FY21: President and Founder**
 	* There were no active LGBTQ-focused organizations at Cooper Union, so I founded a chapter of oSTEM. We support LGBTQ engineering students in their studies by broadening their professional network.
