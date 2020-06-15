@@ -7,7 +7,7 @@ sidebar_link: true
 
 Designed for Electronics I, my group designed a solar and wind powered [charging station](https://docs.google.com/document/d/1Mlf_9_3XAzLQX73I0ryQMwHd4NbsKdRzXt7klF3OhMo/edit?usp=sharing) for an electric car and modeled it in LTSpice.
 
-<h2>Temporary COVID-19 Ventilator</h2>
+<h2>Temporary COVID-19 Ventilator (March 2020)</h2>
 Working with a team from Columbia University, we designed a [makeshift ventilator](https://docs.google.com/presentation/d/1HfpuJJX7hhtkSMgyB17YvybOcqpso5rSmR06rWZg86w/edit?usp=sharing) for COVID-19 patients in the event of a serious ventilator shortage. I designed electronics and wrote the controls code.
 
 <h2> Pitch Theremin: Sophomore Projects (December 2019) </h2>
