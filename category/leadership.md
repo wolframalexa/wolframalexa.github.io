@@ -1,4 +1,5 @@
----                                                                                                       layout: page
+---
+layout: page
 title: Leadership and Professional Experience
 sidebar_link: true
 ---
