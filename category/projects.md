@@ -3,21 +3,24 @@ layout: page
 title: Projects
 sidebar_link: true
 ---
+<h2>Solar Car Charging Station Design (May 2020)</h2>
+
+Designed for Electronics I, my group designed a solar and wind powered [charging station](https://docs.google.com/document/d/1Mlf_9_3XAzLQX73I0ryQMwHd4NbsKdRzXt7klF3OhMo/edit?usp=sharing) for an electric car and modeled it in LTSpice.
+
+<h2>Temporary COVID-19 Ventilator</h2>
+Working with a team from Columbia University, we designed a [makeshift ventilator](https://docs.google.com/presentation/d/1HfpuJJX7hhtkSMgyB17YvybOcqpso5rSmR06rWZg86w/edit?usp=sharing) for COVID-19 patients in the event of a serious ventilator shortage. I designed electronics and wrote the controls code.
 
 <h2> Pitch Theremin: Sophomore Projects (December 2019) </h2>
 
-As part of ECE291 at The Cooper Union, my group built a [pitch theremin](https://docs.google.com/document/d/1SeXoJaNbIeLjNpwCGp_wtSrwWCHZ9YC8OHh2F3PvuhA/edit?usp=sharing), an ethereal instrument that is played without being touched, using oscillators, envelope detection, a low-pass filter, and a speaker. I implemented the changes from the provided schematic (notably, implementing voltage followers to prevent loading effects from the capacitive coupling). 
+As part of ECE291 at The Cooper Union, my group built a [pitch theremin](https://docs.google.com/document/d/1SeXoJaNbIeLjNpwCGp_wtSrwWCHZ9YC8OHh2F3PvuhA/edit?usp=sharing), an ethereal instrument that is played without being touched, using oscillators, envelope detection, a low-pass filter, and a speaker. I implemented the changes from the provided schematic (notably, implementing voltage followers to prevent loading effects from the capacitive coupling).
 
-<h2>The Dinosaur Game: Digital Logic Design Final Project (May 
-2019)</h2>
+<h2>The Dinosaur Game: Digital Logic Design Final Project (May 2019)</h2>
 
 My partner Hadassah Yanofsky and I built [a version of Google Chrome's Dinosaur Game](https://docs.google.com/document/d/1f7AopN-quus8UlS3rx4m_0wKX9mxa_iP11Y8uOVm4rU/edit?usp=sharing) using only 40XX series CMOS chips. I was responsible for the random obstacle generation and the display.
 
 Other projects for Digital Logic Design include the [Traffic Light](https://docs.google.com/document/d/1mU8ysq5N06wHEdOlbwmxjcJd6YPX3huf1eCUNwub21E/edit?usp=sharing) and [Braille](https://docs.google.com/document/d/10a4otYoUxSXOOWUxVkir43FO-LzfDG4o3zMiSYjK4KY/edit?usp=sharing) individual projects.
 
-DLD is notoriously a difficult class at Cooper Union, but it's the reason I became an electrical engineer: I love the challenges of debugging, adapting to setbacks, and thinking of creative ways to put different components together. I am eternally grateful to the upperclass students who took a look at my circuits real quick when they had a second, and hope to return the favour to future students.
-
-<h2>Formula SAE Team (September 2018-May 2019)</h2>
+<h2>Cooper Union Motorsports</h2>
 
 [Cooper Union's FSAE team](http://fsae.cooper.edu) is a group of student motorsports enthusiasts who design, build, test, and race a Formula One-style racecar in Brooklyn, Michigan every year. The competition includes both dynamic races and static design evaluations as well as cost and business presentations in which teams must present the market-readiness of their car. In my time on the team, I was a member of the chassis system. 
 
@@ -27,9 +30,6 @@ DLD is notoriously a difficult class at Cooper Union, but it's the reason I beca
 As a member of the aerodynamics subsystem, I laid the groundwork for future teams to implement a Drag Reduction System (documentation link to follow), projected to decrease drag by 50%, which will greatly ameliorate the team's times particularly in the acceleration and skidpad events.
 
 My additional responsibilities included performing carbon fiber layups end-to-end, building a PVC frame for driver fitting, preparing the business presentation, and managing two sponsorship accounts worth over $2,000.
-
-<img src="/assets/images/undertray.JPG" alt="Undertray" align="center">
-<p align="center">Undertray post-layup. The team made an undertray for the first time in its history, and this component helps generate downforce through ground effect.</p>
 
 <h2>Refugee in Flight Shelter Kit (September-December 2018)</h2>
 Refugees are fleeing Sub-Saharan Africa because of political violence, climate change, and economic hardship. When people make the trek across the Sahara, they must stop to recuperate. Current UN refugee camps are underfunded, and the shelters are difficult to erect, stationary, and unsustainable since they are made of plastics. [RiFSK](http://rifsk.org), the Refugee in Flight Shelter Kit, aims to create a biodegradable, portable, waterproof, easily-buildable shelter made of locally-sourced materials to accomodate a woman and two children.
