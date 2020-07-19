@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Leadership and Professional Experience
+title: Experience
 sidebar_link: true
 ---
 
