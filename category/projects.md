@@ -3,6 +3,9 @@ layout: page
 title: Projects
 sidebar_link: true
 ---
+## Open-Source and Inexpensive Motion Capture System using Microsoft Kinect
+With the Cooper Union [Autonomy Lab](https://autonomylab.nyc), I am furthering work to build an inexpensive motion capture system using Microsoft Kinect cameras. [Documentation thus far](https://andyj1.github.io/kinect/).
+
 <h2>Solar Car Charging Station Design (May 2020)</h2>
 
 Designed for Electronics I, my group designed a solar and wind powered [charging station](https://docs.google.com/document/d/1Mlf_9_3XAzLQX73I0ryQMwHd4NbsKdRzXt7klF3OhMo/edit?usp=sharing) for an electric car and modeled it in LTSpice.
