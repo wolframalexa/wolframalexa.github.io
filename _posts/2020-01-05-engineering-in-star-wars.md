@@ -3,7 +3,7 @@ layout: post
 title: "The Sith Need Reliability Engineers"
 excerpt: "And other Star Wars opinions (contains spoilers)"
 categories:
-  - Blog Posts
+  - Blog
 tags:
   - star wars
   - eng in pop culture

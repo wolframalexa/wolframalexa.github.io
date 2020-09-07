@@ -3,7 +3,7 @@ layout: post
 title: "Clap Once If You Hear Me" 
 excerpt: "How to use signals processing to hold us together - literally - and why they use those clapperboards for movies. Featuring math and graphs!"
 categories:
-  - Blog Posts
+  - Blog
 tags:
   - signals
   - audio

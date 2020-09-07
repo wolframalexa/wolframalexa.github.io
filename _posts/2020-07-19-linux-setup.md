@@ -3,7 +3,7 @@ layout: post
 title: "Linux La Vida Loca"
 excerpt: "Or, how to set up three operations systems on two laptops"
 categories:
- - Blog Posts
+ - Blog
 tags:
  - Linux
  - Autonomy Lab

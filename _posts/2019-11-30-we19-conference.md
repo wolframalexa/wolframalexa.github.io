@@ -2,7 +2,7 @@
 layout: post
 title: "Reflections: Engaging and Creating Space for Women Engineers at WE19"
 categories:
-  - Blog Posts
+  - Blog
 tags:
   - work
   - professional development

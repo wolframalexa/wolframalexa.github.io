@@ -3,7 +3,7 @@ layout: post
 title: "Switch Your Email, Protect Your Privacy"
 excerpt: "A Comparison of Privacy-Focused Email for the Novice, and Why You Should Care"
 categories:
-  - Blog Posts
+  - Blog
 tags:
   - privacy
   - encryption

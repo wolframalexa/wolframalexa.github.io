@@ -2,7 +2,7 @@
 layout: post
 title: "What I Learned At Ecosystem"
 categories:
-  - Blog Posts
+  - Blog
 tags:
   - work
   - energy

@@ -3,7 +3,7 @@ layout: post
 title: "Who is your tech for social good project helping?"
 excerpt: "The world doesn't need another coronavirus tracker, Seth."
 categories:
- - Blog Posts
+ - Blog
 tags:
  - ethics
  - social good

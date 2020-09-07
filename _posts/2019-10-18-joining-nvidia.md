@@ -2,7 +2,7 @@
 layout: post
 title: "Joining Nvidia! (Summer 2020)"
 categories:
-  - Blog Posts
+  - Blog
 tags:
   - work
   - hardware
