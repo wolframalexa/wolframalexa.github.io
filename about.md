@@ -6,7 +6,7 @@ sidebar_link: true
 
 
 <p>
-Hey there! My name is Alexa, I'm studying electrical engineering at Cooper Union. This summer, I'm working at NVIDIA doing hardware design. My interests include hardware engineering, building and debugging circuits, automating boring stuff with MATLAB and Python, classical music, podcasts, swimming, board games, math, and combinations thereof.
+Hey there! My name is Alexa, I'm studying electrical engineering at Cooper Union. This summer, I'm working at NVIDIA doing hardware design. My interests include hardware engineering, building and debugging circuits, automating boring stuff with MATLAB and Python, classical music, podcasts, baking bread, swimming, board games, math, and combinations thereof.
   
 </p>
 <p>  
