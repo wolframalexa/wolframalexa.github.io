@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linux La Vida Loca"
-excerpt: "Or, how to set up three operations systems on two laptops"
+excerpt: "Or, how to set up three operating systems on two laptops"
 categories:
  - Blog
 tags:
