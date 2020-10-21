@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Host a Diversity Panel Without Resorting to "What Is It Like?"" 
+title: "How to Host a Diversity Panel Without Resorting to 'What Is It Like?'" 
 excerpt: "I moderated a really awesome women-in-engineering panel, and here's how"
 categories:
  - Blog
