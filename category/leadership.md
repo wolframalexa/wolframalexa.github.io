@@ -44,8 +44,10 @@ sidebar_link: true
 ## Other Memberships
 ### Built by Girls
 * Ambassador
+
 ### Rewriting the Code
 * Fellow
+
 ### Sunrise Movement New York City
 * Organizer and Researcher
 
