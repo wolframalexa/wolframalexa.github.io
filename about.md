@@ -5,31 +5,16 @@ sidebar_link: true
 ---
 
 
-<p>
-Hey there! My name is Alexa, I'm studying electrical engineering at Cooper Union. This summer, I'm working at NVIDIA doing hardware design. My interests include hardware engineering, building and debugging circuits, automating boring stuff with MATLAB and Python, classical music, podcasts, baking bread, swimming, board games, math, and combinations thereof.
-  
-</p>
-<p>  
-  My theme is a Jekyll theme called <a href="https://github.com/fongandrew/hydeout">Hydeout</a> by Andrew Fong.
-</p>
+Hey there! My name is Alexa.
 
-<h3>Organizations and Affiliations</h3>
+![Alexa, a blonde white woman in a purple winter coat, stands in front of a beach](/assets/images/alexainrockaway.jpg){: .align-center}
 
-Current:
-* Autonomy Lab, Cooper Union
-* Society of Women Engineers (SWE)
-* Out in STEM (oSTEM)
-* Rewriting the Code (RTC)
-* labac.dev
-* Built by Girls
+I study electrical engineering at the Cooper Union (graduating May 2022).
+I interned on NVIDIA's consumer products team in 2020 as a hardware intern, and I'll be returning in 2021.I do research with Dr Mili Shah at the Cooper Union in [MiliLab](http://faculty.cooper.edu/mili/miliLab/index.html) in hardware and camera syncing.
+My professional interests include hardware engineering, circuits, engineering ethics and policy, and climate.
+In my free time, I am a polyglot (je parle français y hablo español), an avid reader, a lapsed violinist, a bread baker, and a swimmer.
 
-Past:
-* Cooper Union Formula SAE Team
-* New York Academy of Sciences
+Contact me by email [here](mailto:alexajakob@tutanota.com), and view my resume [here](https://drive.google.com/file/d/1n5j3sZ5Abm2q9HjkQ7WAPXKQ4y1o-Co-/view?usp=sharing).
 
-<h3>Contact Me</h3>
-<p><a href="mailto:alexajakob@tutanota.com">Email</a></p>
-<p><a href="https://github.com/wolframalexa">Github</a></p>
-<p><a href="https://www.linkedin.com/in/alexa-jakob/">LinkedIn</a></p>
 
-<p>You can find my resume <a href="https://drive.google.com/file/d/1UjsTEW6EO8v8u-iKgrbpjXNs0mANIVqU/view?usp=sharing">here</a>.</p>
+My theme is a Jekyll theme called <a href="https://github.com/fongandrew/hydeout">Hydeout</a> by Andrew Fong.
