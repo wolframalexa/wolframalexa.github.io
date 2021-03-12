@@ -11,7 +11,7 @@ Hey there! My name is Alexa.
 
 I study electrical engineering at the Cooper Union (graduating May 2022).
 
-I interned on NVIDIA's consumer products team in 2020 as a hardware intern, and I'll be returning in 2021.I do research with Dr Mili Shah at the Cooper Union in [MiliLab](http://faculty.cooper.edu/mili/miliLab/index.html) in hardware and camera syncing.
+I interned on NVIDIA's consumer products team in 2020 as a hardware intern, and I'll be returning in 2021. I do research with Dr Mili Shah at the Cooper Union in [MiliLab](http://faculty.cooper.edu/mili/miliLab/index.html) in hardware and camera syncing.
 
 My professional interests include hardware engineering, circuits, engineering ethics and policy, and climate.
 
