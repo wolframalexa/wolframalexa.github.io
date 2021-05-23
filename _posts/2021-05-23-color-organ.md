@@ -22,13 +22,13 @@ There are four main components: input signal, amplification, filtering, and outp
 
 ## Schematic
 
-[Full schematic](/assets/images/full_color_organ_schematic.png)
+![Full schematic](/assets/images/full_color_organ_schematic.png)
 
 Full S^5 Schematic
 
 Audio signals generally have very small amplitudes, and amplifying the signals ensures they can be adequately picked up by later stages of the design. One amplifier alone was not found to be sufficient, so a second amplifier stage was added. To prevent loading effects, a buffer in an emitter follower configuration was used in between stages. An operational amplifier could produce a better amplifier (more linear, and with higher gain) - but we didn't have enough of that component. [Darlington transistors](https://en.wikipedia.org/wiki/Darlington_transistor) could replace one of the transistors, for even higher gain, and to simplify construction. But this configuration is good enough.
 
-[Transistor amplifier - two common emitters separated by an emitter follower](/assets/images/transistor_amp_stage.png)
+![Transistor amplifier - two common emitters separated by an emitter follower](/assets/images/transistor_amp_stage.png)
 
 Transistor Amplifier Stage
 
@@ -40,7 +40,7 @@ With both stages, the resulting gain is 25, allowing for considerable amplificat
 
 The amplified signal then needed to be filtered into one of three bands: low, medium, and high frequency. Operational amplifiers were used to make active bandpass filters. Active filters tend to be more sensitive and have a tighter passband than passive filters, which was valuable since the frequency ranges were small.  The topology we used controlled the bandpass tightly compared to simpler topologies. Along with gain calculations, we used a [MATLAB program](https://gist.github.com/wolframalexa/f72a3a9e3000a3636da56dda52d3e506) to select resistor and capacitor values.
 
-[Operational Amplifier Filter Topology](/assets/images/filter_topology.png)
+![Operational Amplifier Filter Topology](/assets/images/filter_topology.png)
 
 Implemented filter
 
@@ -54,7 +54,7 @@ I realize that driving an LED with an audio signal is bad practice - if I had mo
 
 Volume control was also added to optimize the audio experience. An inverting amplifier was implemented using an operational amplifier with a potentiometer as the feedback resistor, Rf.
 
-[Inverting amplifier with an opamp](/assets/images/inverting_amp_with_op_amp.png)
+![Inverting amplifier with an opamp](/assets/images/inverting_amp_with_op_amp.png)
 
 Inverting amplifier configuration using an operational amplifier
 
@@ -71,44 +71,44 @@ The LF411 operation amplifier was not able to produce enough current to drive th
 
 The amplifier is noninverting, because each common emitter stage is inverting. With a sine wave input of 100mV peak to peak, the output of the amplifier produces an amplitude of 3.2V peak to peak, or a gain of 32. This ensures small-voltage audio signals are amplified enough so they can be manipulated in the color amplifier later.
 
-[input and output amplifier curves, showing that a multiplication by about 32](/assets/images/amplifier_ltspice.png)
+![input and output amplifier curves, showing that a multiplication by about 32](/assets/images/amplifier_ltspice.png)
 
 Amplifier input (green) and output (blue)
 
 After each audio signal is amplified, it is passed to three bandpass filters that split the signal into three frequency bands: low, medium, and high. The gain of each bandpass filter was measured with LTSpice’s AC analysis tool.
 
-[low frequency bode plot](/assets/images/filter_bode_low.png)
+![low frequency bode plot](/assets/images/filter_bode_low.png)
 AC Analysis Results for Low-Frequency Bandpass Filter. Center frequency: 318 Hz. Most gain from 250 - 400 Hz.
 
-[medium frequency bode plot](/assets/images/filter_bode_med.png)
+![medium frequency bode plot](/assets/images/filter_bode_med.png)
 AC Analysis Results for Medium-Frequency Bandpass Filter.
 
-[high frequency bode plot](/assets/images/filter_bode_high.png)
+![high frequency bode plot](/assets/images/filter_bode_high.png)
 AC Analysis Results for High-Frequency Bandpass Filter. (The gain for the highest frequency filter isn't nearly as much as the low and medium filters, which remains an issue.) 
 
 At first glance, there appears to be a beat frequency initially, which would severely impact circuit performance with varying amplitude.
 
-[beats frequency](/assets/images/beats_freq_ltspice.png)
+![beats frequency](/assets/images/beats_freq_ltspice.png)
 Apparent Beats Frequency at Bandpass Filter Output
 
 We tested this by incrementing the frequency of the sine wave input as in the schematic below, which mimics a sequence of varying frequencies or notes in a piece of music.
 
 It turns out that the transient only occurs on startup, for a very short and negligible amount of time, not when changing frequencies. As a result, the overall performance of the circuit will not be affected.
 
-[graph showing only an initial transient](/assets/images/many_sines_test.png)
+![graph showing only an initial transient](/assets/images/many_sines_test.png)
 Result of Test with Sine Wave Input Sequence
 
 ## Constructed Device
 
 The device was constructed on a single breadboard
 
-[board with active components highlighted](/assets/images/board_active.png)
+![board with active components highlighted](/assets/images/board_active.png)
 Active Components in the Built Circuit
 
-[board with lights highlighted](/assets/images/board_lights.png)
+![board with lights highlighted](/assets/images/board_lights.png)
 Light/Frequency band correspondence in the built circuit
 
-[board with I/O highlighted](/assets/images/board_io.png)
+![board with I/O highlighted](/assets/images/board_io.png)
 Circuit I/O
 
 In order to get a sound signal from the laptop into the circuit, we modified an old headphone cable. The cable fit into the audio jack on the laptop, and the plan was to solder solid-core wires to the wires in the cable and connect the solid-core wires to the breadboard. This was complicated, since the wires were enamel coated and needed to be melted off using a soldering iron (don't try this at home...). 
