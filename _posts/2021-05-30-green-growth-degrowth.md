@@ -23,14 +23,23 @@ Green growth is so attractive because it fits into American cultural values abou
 The American Green New Deal is one such policy proposal that responds to simultaneous crises of climate change, racial injustice, crumbling infrastructure, and high unemployment. Its goals are:
 
 (A) to achieve the greenhouse gas and toxic emissions reductions needed to stay under 1.5 degrees Celsius of warming, through a fair and just transition for all communities and workers;
+
 (B) to create millions of good, high-wage unions[sic] jobs and encourage collective bargaining agreements to ensure prosperity and economic security for all people of the United States;
+
 (C) to invest in the infrastructure and industry of the United States to sustainably meet the challenges of the 21st century;
+
 (D) to secure for all people of the United States for generations to come—
+
    (i) clean air and water;
+
    (ii) climate and community resiliency;
+
    (iii) healthy food;
+
    (iv) access to nature; and
+
    (v) a sustainable environment; and
+
 (E) to promote justice and equity by stopping current, preventing future, and repairing historic oppression of indigenous peoples, communities of color, migrant communities, deindustrialized communities, depopulated rural communities, the poor, low-income workers, women, the elderly, the unhoused, people with disabilities, and youth (referred to in this resolution as “frontline and vulnerable communities”)[[10]](https://www.notion.so/Is-there-no-alternative-to-green-growth-1d410afc0577472fb9aad684e865d269#_ftn10)
 
 The Green New Deal provides a vision for a just world, with good union jobs for all, safe housing, and a clean environment, in which everyone wins. Although the Green New Deal is not yet a reality, it is building momentum. Groups like the Sunrise Movement have organized to make it a serious proposal – in the 117th Congress, the bill has 101 original cosponsors, up from 67 in the previous Congress[[11]](https://www.notion.so/Is-there-no-alternative-to-green-growth-1d410afc0577472fb9aad684e865d269#_ftn11),[[12]](https://www.notion.so/Is-there-no-alternative-to-green-growth-1d410afc0577472fb9aad684e865d269#_ftn12), and the framing of climate change creating jobs has been adopted by President Joe Biden[[13]](https://www.notion.so/Is-there-no-alternative-to-green-growth-1d410afc0577472fb9aad684e865d269#_ftn13).
