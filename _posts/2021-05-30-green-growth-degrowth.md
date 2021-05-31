@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Can we actually grow our way out of climate catastrophe? Must we?"
-excerpt: "Ethics of degrowth and green growth in climate politics"
+excerpt: "On ethics of degrowth and green growth in climate politics"
 categories:
  - Blog
 tags:
