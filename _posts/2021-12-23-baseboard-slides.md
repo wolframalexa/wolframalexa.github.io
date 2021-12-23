@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""
+title: "Designing an Open-Source Baseboard to Empower Hardware Makers"
 categories:
  - Blog
 tags:
