@@ -5,18 +5,17 @@ sidebar_link: true
 ---
 
 ## NVIDIA
-* **Summer 2020: Hardware Intern**
-	* As a hardware intern on the Jetson team, I am designing a board - details to come.
-	* I'm gaining practical experience with the engineering workflow and HW/SW compatibility, circuit and PCB design, and project and product management.
-	* I'll be returning to the same team in summer 2021.
+* **Summers 2020 & 2021: Hardware Intern**
+	* As a hardware intern on the Jetson team, I designed an open-source PCB that will enable makers to design their own hardware for the Jetson Nano.
+	* I gained practical experience with engineering workflow and HW/SW compatibility, circuit and PCB design, and project and product management.
 
 ## Society of Women Engineers
 
 ### The Cooper Union
 * **FY21: President**
-	* In this role, my goal is to advocate for women and underrepresented genders in engineering at Cooper Union and beyond. I want to continue building initiatives with institutional support to recruit more women and perform outreach in the local community, including creating a mentorship program with female high school students.
-	* I also want to strengthen the relationship with the Society at large and create opportunities for our members to engage with engineering professionals.
-	* SWE - Cooper Union will be resilient in adapting to a changing post-coronavirus world and supporting our members through it.
+	* In this role, my goal was to advocate for women and underrepresented genders in engineering at Cooper Union and beyond. I built initiatives with institutional support to recruit more women and perform outreach in the local community, including creating a mentorship program with female high school students, and connecting with admitted women students.
+	* I also strengthened the relationship with the Society at large and create opportunities for our members to engage with engineering professionals.
+	* SWE - Cooper Union is resilient in adapting to a changing post-coronavirus world and supporting our members through it, with online and now safe in-person events.
 
 * **FY20: Treasurer**
 	* I was responsible for managing our section's finances and interfacing with the Joint Activities Committee to get reimbursements.
@@ -51,3 +50,7 @@ sidebar_link: true
 ### Sunrise Movement New York City
 * Organizer and Researcher
 
+## Other Awards
+* Goldwater Scholarship: competitive award for top undergraduate STEM researchers in the United States
+* Prize for Undergraduate Electrical Engineering Research, the Cooper Union
+* Charles Goodman Essay Award in Humanities: awarded by the Cooper Union for the "best essay dealing with the conflict in values in contemporary society"
