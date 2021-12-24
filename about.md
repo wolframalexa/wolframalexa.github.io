@@ -7,7 +7,7 @@ sidebar_link: true
 
 Hey there! My name is Alexa.
 
-![Alexa, a blonde white woman in a purple winter coat, stands in front of a beach](/assets/images/alexaatrockaway.jpg)
+<img src="/assets/images/alexaatrockaway.jpg" alt="Alexa, in a purple winter coat, stands in front of a beach" width="200"/>
 
 I study electrical engineering at the Cooper Union (graduating May 2022).
 
