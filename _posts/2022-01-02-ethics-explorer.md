@@ -27,7 +27,7 @@ This is the first webapp I've ever built, which was a big challenge - more on th
 
 I created the database myself, according to the following schema:
 
-<center><img src='/assets/images/er-diagram.png' alt='ER Diagram' width='500'></center>
+<center><img src='/assets/images/er-diagram.png' alt='ER Diagram'></center>
 
 I chose to implement this fairly simply. I didn't use an ORM for the database and opted to write SQL queries in JavaScript instead. The user can only read from the database (no CRUD - create, read, update, delete - functionality). There is only one page, rather than having multiple tabs. Some of this is functionality I'd like to add in the future.
 
