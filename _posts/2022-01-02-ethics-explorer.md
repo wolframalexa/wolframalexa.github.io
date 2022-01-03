@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Ethics Explorer: A Web App for Thinking About Ethical Engineering Careers"
+excerpt: "My very first web app!"
 categories:
  - Blog
 tags:
