@@ -22,8 +22,11 @@ Finally, recently, a mentee asked what I had done to prepare for my hardware int
 
 ## The Basics
 *Know what's on your resume.* If you say you can program in C, don't be surprised when you're asked to do it! This goes especially for past projects - you should be able to talk about the decisions and contributions you made in depth.
+
 *Explain your ideas clearly.* Your interviewer should understand the assumptions you made and the steps you took to get to a solution. This is just as important as being technically correct - engineers who can clearly explain their thought process are good colleagues and save the team time and energy.
+
 *Don't neglect behavioral interviewing.* Being pleasant, curious, and organized makes you a good teammate. Prepare some stories about past school or internship projects that show how you work with others.
+
 *Research the company, team, and role.* This gives you an idea of who you're talking to and what topics they could ask, and allows you to ask smart questions about the job. Some good tools for this include LinkedIn and Glassdoor. You can also ask people in your network for advice - one of my professors gave me some awesome advice in preparing for an interview. 
 
 ## Specific Topics
@@ -50,10 +53,11 @@ Simple circuits (AND, NAND, OR, NOR, XOR), multiplexers, half/full-adder, flipfl
 
 ### Computer Architecture
 Understand generally how computers work: how instructions are handled, how memory is accessed, caching.
+
 [easy example: what is pipelining, and how does it work?]
 
 ### Programming
-Not all electrical engineers know how to program, but if you are one of the ones that does, that can be a huge advantage. In my interviews, I used C, mostly for embedded applications, and Python, for everythig else. Your code generally doesn't need to compile, but you should understand and explain the choices you are making in the design process. At a minimum, I suggest understanding:
+Not all electrical engineers know how to program, but if you are one of the ones that does, that can be a huge advantage. In my interviews, I used C, for embedded applications, and Python, for everything else. Your code generally doesn't need to compile, but you should understand and explain the choices you are making in the design process. At a minimum, I suggest understanding:
 
 * how the language handles memory (malloc/free in C and static vs dynamic memory)
 * how to declare and use functions
@@ -63,3 +67,6 @@ Not all electrical engineers know how to program, but if you are one of the ones
 * scope of variables (global/local) and pass-by-value vs pass-by-reference
 
 [easy example: divide an integer by 4 without using the '/' operator]
+
+
+Best of luck with your interviews!
