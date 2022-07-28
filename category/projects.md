@@ -3,6 +3,10 @@ layout: page
 title: Projects
 sidebar_link: true
 ---
+
+### Benchmarking Josephson Junctions for Quantum Computing
+For senior project, worked with researchers at Cooper Union and at NYU's Shabani Lab for Quantum Devices to measure characteristics of transistors, to aid in verification of quantum systems. See blog post [here](https://www.alexajakob.com/blog/2022/05/27/quantum-computing.html) with more information.
+
 ### Open-Source and Inexpensive Motion Capture System using Microsoft Kinect
 With the Cooper Union [Autonomy Lab](https://autonomylab.nyc), I am furthering work to build an inexpensive motion capture system using Microsoft Kinect cameras.
 
