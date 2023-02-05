@@ -3,6 +3,9 @@ layout: page
 title: Experience
 sidebar_link: true
 ---
+## Formlabs
+* **August 2022 - present**
+	* I am an electrical engineer in R&D, working on the next generation of SLA printing. I'm very excited to share more news when our product comes out!
 
 ## NVIDIA
 * **Summers 2020 & 2021: Hardware Intern**
