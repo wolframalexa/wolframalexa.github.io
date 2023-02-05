@@ -1,6 +1,3 @@
-
-
-
 ---
 layout: post
 title: "A Very Belated 2022 Recap"
