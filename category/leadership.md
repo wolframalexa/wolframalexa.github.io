@@ -3,9 +3,13 @@ layout: page
 title: Experience
 sidebar_link: true
 ---
+## LeafLabs
+* **September 2023 - present**
+	* I work on lots of hardware, mainly increasing quality and quantity of neuroscience data available to researchers, and various client projects along the way!
+
 ## Formlabs
-* **August 2022 - present**
-	* I am an electrical engineer in R&D, working on the next generation of SLA printing. I'm very excited to share more news when our product comes out!
+* **August 2022 - August 2023**
+	* I was an electrical engineer in R&D, working on the next generation of SLA printing. I'm very excited to share more news when our product comes out!
 
 ## NVIDIA
 * **Summers 2020 & 2021: Hardware Intern**
