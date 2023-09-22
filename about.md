@@ -6,9 +6,9 @@ sidebar_link: true
 
 <img src="/assets/images/alexaatrockaway.jpg" alt="Alexa, in a purple winter coat, stands in front of a beach" width="200"/>
 
-Hi! My name is Alexa. I'm an Associate Member of Technical Staff at LeafLabs, where I design electrical hardware for a wide range of industries and applications, based in the Boston, MA area.
+Hi! My name is Alexa. I'm an Associate Member of Technical Staff at LeafLabs, where I design electrical hardware for a wide range of industries and applications.
 
-I previously worked on Formlabs's electrical engineering team designing hardware and firmware for next-generation SLA printers, and, before that, interned on NVIDIA's consumer products team in 2020 and 2021. 
+I previously worked on Formlabs's electrical engineering team designing hardware and firmware for next-generation SLA printers, and, before that, interned on NVIDIA's consumer products team.
 
 I hold a degree from the Cooper Union in electrical engineering and minors in computer science and philosophy, history, and society. In my time in undergrad, I did research Dr Mili Shah at the Cooper Union in [MiliLab](http://faculty.cooper.edu/mili/miliLab/index.html) in hardware and computer vision, for which I won a Goldwater scholarship, and at New York University with Dr Javad Shabani in quantum computing hardware.
 
