@@ -4,7 +4,7 @@ title: About
 sidebar_link: true
 ---
 
-<img src="/assets/images/alexaatrockaway.jpg" alt="Alexa, in a purple winter coat, stands in front of a beach" width="200"/>
+<img src="/assets/images/alexa_leaf.jpg" alt="Alexa, who has shoulder-length pink hair and wire-rimmed glasses, stands in front of a grey brick wall" width="200"/>
 
 Hi! My name is Alexa. I'm an Associate Member of Technical Staff at LeafLabs, where I design electrical hardware for a wide range of industries and applications.
 

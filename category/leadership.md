@@ -9,7 +9,7 @@ sidebar_link: true
 
 ## Formlabs
 * **August 2022 - August 2023**
-	* I was an electrical engineer in R&D, working on the next generation of SLA printing. I'm very excited to share more news when our product comes out!
+	* I was an electrical engineer in R&D, working on the next generation of SLA printing (Form 4). I designed the LCD driver board, did power measurements for the system, qualified ICs and motors for mass production, worked on compliance testing and motor tuning, wrote a little firmware, and other odds and ends on the electrical side.
 
 ## NVIDIA
 * **Summers 2020 & 2021: Hardware Intern**
