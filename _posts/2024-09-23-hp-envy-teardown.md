@@ -34,7 +34,8 @@ I took out the hard drive, a 1TB SATA III drive - which is still pretty capable 
 
 Next, onto the motherboard. There's an RF shield over some of the more sensitive components, most notably the RAM. Really important to protect that from interference, and it has the added benefit of preventing radiation from the RAM as well.
 ![RF Shield](/assets/images/teardown/teardown_rfshield.jpg)
-![DDR](/assets/images/teardown_ddr.jpg)
+
+![DDR](/assets/images/teardown/teardown_ddr.jpg)
 
 I found it interesting that there were two main PCBs, connected by a flex cable. I imagine this was for packaging reasons. Plus, the higher speed interfaces (HDMI) were on the main board, closer to the processing, while the slower interfaces (USB2, power button) that are more forgiving of errors were on the smaller board.
 ![Smaller board](/assets/images/teardown/teardown_smallboard.jpg)
