@@ -10,7 +10,7 @@ tags:
 
 One day a few months ago, as I was biking in Cambridge, my earbuds fell out of my pocket onto the road. I pulled over but before I could grab them, a car had run them over. And so I decided to pick up the pieces and take them apart to see what's going on inside.
 
-I have the EarFun Free 2S earbuds. You can read all their ad copy about how they're wireless Bluetooth earbuds that have ~30 hours of playtime here. If memory serves, these were recommended on Wirecutter as good-enough earbuds if you were looking for something cheap but decent. I think I paid around $30 for them.
+I have the EarFun Free 2S earbuds. You can read all their ad copy about how they're wireless Bluetooth earbuds that have ~30 hours of playtime [here](https://www.myearfun.com/eu/headphones/earfun-free-2-s-true-wireless-earbuds-black). If memory serves, these were recommended on Wirecutter as good-enough earbuds if you were looking for something cheap but decent. I think I paid around $30 for them.
 
 These were built to be difficult to repair. Since I bike with at most one earbud in, one of the earbuds was in the case that got run over by the car. Shout out to the car for destroying the plastic case for me! It would have been way harder to do by myself. You can't take the case or earbud apart nondestructively because of glue.
 
