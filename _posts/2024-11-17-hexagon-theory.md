@@ -6,7 +6,7 @@ categories:
 - Blog
 tags:
 - zine
-- biking
+- cycling
 ---
 # Concept
 Recently, I've been exploring [zines](https://en.wikipedia.org/wiki/Zine) as a medium to develop and synthesize ideas. Although this zine isn't strictly technical, I've been inspired by peers to learn in public and simply make things to explore ideas - and as such, it belongs on this blog![^1]
