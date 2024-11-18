@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hexagon Theory"
-subtitle: "A zine about Boston, biking, navigation, and finding place where you are"
+excerpt: "A zine about Boston, biking, navigation, and finding place where you are"
 categories:
 - Blog
 tags:
