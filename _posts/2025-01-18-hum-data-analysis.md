@@ -21,4 +21,4 @@ Of course, computers are not always right, and I’d be curious to see what scho
 
 As a side effect, I also got better at manipulating data in Python, particularly in pandas, which has proven to be useful when I want to whip up a quick data analysis at my day job.
 
-[^1] Thinking of the famous 1979 IBM slide “a computer can never been held accountable therefore a computer must never make a management decision” here.
+[^1]: Thinking of the famous 1979 IBM slide “a computer can never been held accountable therefore a computer must never make a management decision” here.
