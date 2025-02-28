@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Art of Doing Science and Engineering"
-subtitle: "Richard Hamming, by his own admission, was just some guy"
+excerpt: "Richard Hamming, by his own admission, was just some guy"
 categories:
 - Blog
 tags:
