@@ -3,8 +3,12 @@ layout: page
 title: Experience
 sidebar_link: true
 ---
+## Boston Dynamics
+* **December 2025 - present**
+	* Working on Atlas (humanoid robot program) as an electrical engineer
+
 ## LeafLabs
-* **September 2023 - present**
+* **September 2023 - November 2025**
 	* I work on lots of hardware, mainly increasing quality and quantity of neuroscience data available to researchers, and various client projects along the way!
 
 ## Formlabs
